@@ -3,9 +3,9 @@
 
     let panels = [
         { active: false, url: "img/01.jpg", title: "Stadt" },
-        { active: false, url: "img/rollstuhl_treppe.jpg", title: "Chancen" },
-        { active: false, url: "img/03.jpg", title: "Welcome to the Future" },
-        { active: false, url: "img/04.jpg", title: "Risiken" },
+        { active: false, url: "img/rollstuhl_treppe.jpg", title: "Land" },
+        { active: false, url: "img/03.jpg", title: "Fluss" },
+        { active: false, url: "img/04.jpg", title: "Meinungsbild" },
         { active: false, url: "img/05.jpg", title: "Technik" },
     ];
 
@@ -22,6 +22,18 @@
         focus = index;
     }
 </script>
+
+<div class="gallery">
+    {#each panels as { active, url, title }, i}
+        <div
+            class="panel {active}"
+            style="background-image: url({url})"
+            on:click={() => handleClick(i)}
+        >
+            <h3>{title}</h3>
+        </div>
+    {/each}
+</div>
 
 <style>
     .gallery {
@@ -63,14 +75,3 @@
         transition: opacity 0.3s ease-in 0.4s;
     }
 </style>
-
-<div class="gallery">
-    {#each panels as { active, url, title }, i}
-        <div
-            class="panel {active}"
-            style="background-image: url({url})"
-            on:click={() => handleClick(i)}>
-            <h3>{title}</h3>
-        </div>
-    {/each}
-</div>
