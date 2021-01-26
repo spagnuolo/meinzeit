@@ -1,0 +1,63 @@
+html {
+	background: #ddd;
+	/* background: linear-gradient(to right,#ccc, #eee);
+	background-repeat: no-repeat; */
+}
+
+body {
+	position: relative;
+	width: 1200px;
+	height: min-content;
+	color: #333;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-size: 1em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	margin: 40px auto;
+	padding: 8px;
+	background-image: url("img/paper2.jpg");
+}
+body:before,
+body:after {
+	content: "";
+	height: 98%;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	background-image: url("img/paper2.jpg");
+}
+body:before {
+	background: #fafafa;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+	left: -5px;
+	top: 4px;
+	transform: rotate(-2.5deg);
+	background-image: url("img/paper2.jpg");
+}
+body:after {
+	background: #f6f6f6;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	right: -3px;
+	top: 1px;
+	transform: rotate(1.4deg);
+	background-image: url("img/paper2.jpg");
+}
+
+p {
+	text-align: justify;
+	margin: 0 12px 0 12px;
+}
+p:last-child::after {
+	content: " ☐";
+}
+
+::selection {
+	/* color: black; */
+	background: rgb(255, 255, 125);
+}
+
+@media screen and (max-width: 1280px) {
+	body {
+		margin: 40px;
+	}
+}
