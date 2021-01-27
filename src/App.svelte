@@ -14,7 +14,7 @@
 	import Side3 from "./Side3.svelte";
 	import Side4 from "./Side4.svelte";
 
-	let img_focus = null;
+	let img_focus = 3;
 	let fadeInTime = 1300;
 
 	let hmm = "Hmm";
@@ -104,7 +104,7 @@
 	.foot {
 		/* background-color: #86218f63; */
 		grid-area: foot;
-		height: 740px;
+		height: 800px;
 
 		display: flex;
 		justify-content: space-around;
@@ -136,7 +136,7 @@
 	}
 
 	.aufruf {
-		height: 300px;
+		height: 200px;
 		margin-top: 150px;
 	}
 </style>
