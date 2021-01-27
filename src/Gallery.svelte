@@ -1,5 +1,5 @@
 <script>
-    export let focus = null;
+    export let focus = 0;
 
     let panels = [
         { active: false, url: "img/01.jpg", title: "Stadt" },
@@ -9,15 +9,11 @@
         { active: false, url: "img/05.jpg", title: "Technik" },
     ];
 
-    function deactivateAll() {
-        panels.forEach((panel) => {
-            panel.active = false;
-        });
-    }
+    panels[focus].active = true;
 
     function handleClick(index) {
         console.log("click on panel ", index);
-        deactivateAll();
+        panels[focus].active = false;
         panels[index].active = true;
         focus = index;
     }
