@@ -11,13 +11,13 @@
     let loading = null;
 
     const load = (image) => {
-        const timeout = setTimeout(() => (loading = image), 100);
+        // const timeout = setTimeout(() => (loading = image), 100);
 
         const img = new Image();
 
         img.onload = () => {
             selected = image;
-            clearTimeout(timeout);
+            // clearTimeout(timeout);
             loading = null;
         };
 
@@ -26,45 +26,50 @@
 </script>
 
 <div class="container">
-    <div class="phone">
-        <h1>Leserbriefe</h1>
+    <!-- <div class="phone"> -->
+    <h1>Leserbriefe</h1>
 
-        <div class="grid">
-            {#each interviews as image}
-                {#if selected !== image}
-                    <!-- style="background-color: {image.color};" -->
-                    <button
-                        style="background-image: url({image.path});background-position:{image.x} {image.y};"
-                        on:click={() => load(image)}
-                        in:receive={{ key: image.id }}
-                        out:send={{ key: image.id }}>
-                        <!-- {loading === image ? "..." : image.id} -->
-                    </button>
-                {/if}
-            {/each}
-        </div>
-
-        {#if selected}
-            {#await selected then d}
-                <div
-                    class="photo"
-                    in:receive={{ key: d.id }}
-                    out:send={{ key: d.id }}
+    <div class="grid">
+        {#each interviews as image}
+            {#if selected !== image}
+                <!-- style="background-color: {image.color};" -->
+                <button
+                    style="background-image: url({image.path});background-position:{image.x} {image.y};"
+                    on:click={() => load(image)}
+                    in:receive={{ key: image.id }}
+                    out:send={{ key: image.id }}
                 >
-                    <img alt={d.alt} src={d.path} />
+                    <!-- {loading === image ? "..." : image.id} -->
+                </button>
+            {/if}
+        {/each}
+    </div>
 
-                    <div class="brief" on:click={() => (selected = null)}>
-                        <div class="written">
-                            <i>{d.text}</i>
-                            <br />
-                            <br />
-                            <i> {d.name} </i>
-                        </div>
+    {#if selected}
+        {#await selected then d}
+            <div
+                class="overlay"
+                in:receive={{ key: d.id }}
+                out:send={{ key: d.id }}
+            >
+                <!-- <img alt={d.alt} src={d.path} /> -->
+
+                <div
+                    class="brief"
+                    style="background-color:{d.color};"
+                    on:click={() => (selected = null)}
+                >
+                    <div class="written">
+                        <i>{d.text}</i>
+                        <br />
+                        <br />
+                        <i> {d.name} </i>
                     </div>
                 </div>
-            {/await}
-        {/if}
-    </div>
+            </div>
+        {/await}
+    {/if}
+    <!-- </div> -->
 </div>
 
 <style>
@@ -78,9 +83,7 @@
         /* height: 100%; */
         /* top: 0; */
         /* left: 0; */
-    }
 
-    .phone {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -120,12 +123,13 @@
 
         background-size: cover;
         background-repeat: no-repeat;
+        cursor: pointer;
 
         will-change: transform;
     }
 
-    .photo,
-    img {
+    /* img, */
+    .overlay {
         position: absolute;
         /* top: 0;
         left: 0; */
@@ -135,7 +139,7 @@
         overflow: hidden;
     }
 
-    .photo {
+    .overlay {
         display: flex;
         align-items: stretch;
         justify-content: flex-end;
@@ -143,11 +147,10 @@
         will-change: transform;
     }
 
-    img {
+    /* img {
         filter: blur(3px);
         object-fit: cover;
-        cursor: pointer;
-    }
+    } */
 
     .brief {
         text-align: center;
@@ -155,8 +158,10 @@
         height: 100%;
         /* font-size: 2.5vmin; */
         margin: 0;
-        opacity: 0.8;
-        background: rgba(0, 0, 0, 0.8);
+        /* opacity: 0.8; */
+        /* background: #373737;
+        background: linear-gradient(to right, #333, #555); */
+        cursor: pointer;
     }
 
     .written {

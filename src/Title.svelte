@@ -1,6 +1,6 @@
 <h1>Meinzeit</h1>
 <h2>Meine Meinung, deine Meinung – unsere Zeitung</h2>
-<p><span>Ausgabe 2030/2</span> <span class="preis">1,30¥</span></p>
+<div><span>Ausgabe 2030/2</span> <span class="preis">1,30¥</span></div>
 <hr />
 
 <style>
@@ -20,8 +20,8 @@
         margin: 16px 0 0 0;
     }
 
-    p {
-        width: 90%;
+    div {
+        width: 94%;
         color: rgb(114, 114, 114);
         font-size: 20px;
         font-weight: 600;
