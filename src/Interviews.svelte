@@ -3,7 +3,7 @@
     import interviews from "./interviews.js";
 
     const [send, receive] = crossfade({
-        duration: 200,
+        duration: 300,
         fallback: scale,
     });
 

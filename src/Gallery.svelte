@@ -49,7 +49,7 @@
         cursor: pointer;
         flex: 0.5;
         margin: 0 10px 0 10px;
-        transition: all 1300ms ease-in;
+        transition: all 300ms ease-in;
     }
 
     .panel h3 {

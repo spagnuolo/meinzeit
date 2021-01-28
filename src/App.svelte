@@ -15,7 +15,7 @@
 	import Side4 from "./Side4.svelte";
 
 	let img_focus = 3;
-	let fadeInTime = 1300;
+	let fadeInTime = 300;
 
 	let hmm = "Hmm";
 	window.setInterval(() => {
