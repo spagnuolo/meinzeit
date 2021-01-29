@@ -9,12 +9,13 @@
 	import Konrad from "./Konrad.svelte";
 	import Tail from "./Tail.svelte";
 	import Eliza from "./Eliza.svelte";
+	import Video from "./Video.svelte";
 	import Side0 from "./Side0.svelte";
 	import Side2 from "./Side2.svelte";
 	import Side3 from "./Side3.svelte";
 	import Side4 from "./Side4.svelte";
 
-	let img_focus = 3;
+	let img_focus = 1;
 	let fadeInTime = 300;
 
 	let hmm = "Hmm";
@@ -37,7 +38,11 @@
 	</div>
 
 	<div class="foot">
-		{#if img_focus == 3}
+		{#if img_focus == 1}
+			<div class="player">
+				<Video />
+			</div>
+		{:else if img_focus == 3}
 			<!-- <Maria /> -->
 			<!-- <Konrad /> -->
 			<!-- <img class="aufruf" src="img/aufruf.png" alt="aufruf" /> -->
@@ -152,6 +157,13 @@
 			"middle middle middle side"
 			"foot foot foot side"
 			"tail tail tail tail";
+	}
+
+	.player {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 20px;
 	}
 
 	.clouds {

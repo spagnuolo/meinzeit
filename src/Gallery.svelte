@@ -3,7 +3,11 @@
 
     let panels = [
         { active: false, url: "img/01.jpg", title: "Stadt" },
-        { active: false, url: "img/rollstuhl_treppe.jpg", title: "Land" },
+        {
+            active: false,
+            url: "img/rollstuhl_treppe.jpg",
+            title: "Chancen der Inklusion",
+        },
         { active: false, url: "img/05.jpg", title: "Technik" },
         { active: false, url: "img/04.jpg", title: "Meinungsbild" },
         { active: false, url: "img/03.jpg", title: "Fluss" },
