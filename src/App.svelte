@@ -17,11 +17,6 @@
 
 	let img_focus = 1;
 	let fadeInTime = 300;
-
-	let hmm = "Hmm";
-	window.setInterval(() => {
-		hmm += "m";
-	}, 5000);
 </script>
 
 <div class="main">
