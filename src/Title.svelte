@@ -1,24 +1,20 @@
 <script>
     let endung1 = "";
     let endung2 = "";
-    let seperator = "";
 
     function sleep(ms) {
         return new Promise((resolve) => setTimeout(resolve, ms));
     }
 
-    async function typewriter(speed = 200) {
-        seperator = "  ";
+    async function typewriter(speed = 50) {
+        await sleep(5000);
+
         const text = "ung";
 
         for (let i = 0; i <= text.length; i++) {
             await sleep(speed);
             endung1 = text.slice(0, i);
-        }
-
-        for (let i = 0; i <= text.length; i++) {
-            await sleep(speed);
-            endung2 = text.slice(0, i);
+            endung2 = endung1;
         }
 
         await sleep(1500);
@@ -26,14 +22,8 @@
         for (let i = text.length; i >= 0; i--) {
             await sleep(speed);
             endung2 = text.slice(0, i);
+            endung1 = endung2;
         }
-
-        for (let i = text.length; i >= 0; i--) {
-            await sleep(speed);
-            endung1 = text.slice(0, i);
-        }
-
-        seperator = "";
     }
 
     typewriter();
@@ -43,7 +33,7 @@
 </script>
 
 <h1>
-    mein<span class="ending">{endung1}</span>{seperator}zeit<span class="ending"
+    mein<span class="ending">{endung1}</span>zeit<span class="ending"
         >{endung2}</span
     >
 </h1>
