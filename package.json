@@ -17,6 +17,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "d3": "^6.5.0",
     "elizabot": "0.0.3",
     "sirv-cli": "^1.0.0"
   }

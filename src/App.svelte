@@ -5,6 +5,7 @@
 	import Gallery from "./Gallery.svelte";
 	import Interviews from "./Interviews.svelte";
 	import Foot from "./Foot.svelte";
+	import Plot from "./Plot.svelte";
 	import Maria from "./Maria.svelte";
 	import Konrad from "./Konrad.svelte";
 	import Tail from "./Tail.svelte";
@@ -15,7 +16,7 @@
 	import Side3 from "./Side3.svelte";
 	import Side4 from "./Side4.svelte";
 
-	let img_focus = 1;
+	let img_focus = 3;
 	let fadeInTime = 300;
 </script>
 
@@ -36,6 +37,10 @@
 		{#if img_focus == 1}
 			<div class="player">
 				<Video />
+			</div>
+		{:else if img_focus == 2}
+			<div>
+				<Plot />
 			</div>
 		{:else if img_focus == 3}
 			<!-- <Maria /> -->
