@@ -1,18 +1,14 @@
 <script>
-    import { fade } from "svelte/transition";
     let endung1 = "";
     let endung2 = "";
     let seperator = "";
-    let visible = true;
-    let fadingTime = 1100;
 
     function sleep(ms) {
         return new Promise((resolve) => setTimeout(resolve, ms));
     }
 
     async function typewriter(speed = 200) {
-        seperator = " ";
-
+        seperator = "  ";
         const text = "ung";
 
         for (let i = 0; i <= text.length; i++) {
@@ -26,12 +22,18 @@
         }
 
         await sleep(1500);
-        visible = !visible;
-        await sleep(fadingTime - 50);
-        visible = !visible;
+
+        for (let i = text.length; i >= 0; i--) {
+            await sleep(speed);
+            endung2 = text.slice(0, i);
+        }
+
+        for (let i = text.length; i >= 0; i--) {
+            await sleep(speed);
+            endung1 = text.slice(0, i);
+        }
+
         seperator = "";
-        endung1 = "";
-        endung2 = "";
     }
 
     typewriter();
@@ -40,19 +42,11 @@
     }, 20000);
 </script>
 
-{#if visible}
-    <h1 transition:fade={{ duration: fadingTime }}>
-        mein<span class="ending">{endung1}</span>{seperator}zeit<span
-            class="ending">{endung2}</span
-        >
-    </h1>
-    <!-- {:else}
-    <h1 in:fade={{ delay: 1200, duration: 1300 }} out:fade={{ duration: 1300 }}>
-        mein<span class="ending">{endung1}</span>{seperator}zeit<span
-            class="ending">{endung2}</span
-        >
-    </h1> -->
-{/if}
+<h1>
+    mein<span class="ending">{endung1}</span>{seperator}zeit<span class="ending"
+        >{endung2}</span
+    >
+</h1>
 <h2>Meine Meinung, deine Meinung – unsere Zeitung</h2>
 <div><span>Ausgabe 2030/2</span> <span class="preis">1,30¥</span></div>
 <hr />
