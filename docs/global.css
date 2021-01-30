@@ -45,8 +45,8 @@ body:after {
 }
 
 p {
-	text-align: justify;
-	text-align-last: justify;
+	/* text-align: justify;
+	text-align-last: justify; */
 	/* margin: 0 12px 0 12px; */
 	width: 260px;
 }

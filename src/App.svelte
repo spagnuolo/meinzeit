@@ -2,21 +2,21 @@
 	import { fade } from "svelte/transition";
 	import Title from "./Title.svelte";
 	import Head from "./Head.svelte";
+	import TechnikHead from "./TechnikHead.svelte";
 	import Gallery from "./Gallery.svelte";
 	import Interviews from "./Interviews.svelte";
 	import Foot from "./Foot.svelte";
 	import Plot from "./Plot.svelte";
-	import Maria from "./Maria.svelte";
-	import Konrad from "./Konrad.svelte";
 	import Tail from "./Tail.svelte";
-	import Eliza from "./Eliza.svelte";
 	import Video from "./Video.svelte";
 	import Side0 from "./Side0.svelte";
 	import Side2 from "./Side2.svelte";
 	import Side3 from "./Side3.svelte";
 	import Side4 from "./Side4.svelte";
+	import Elaine from "./Elaine.svelte";
+	import RechtFoot from "./RechtFoot.svelte";
 
-	let img_focus = 3;
+	let img_focus = 1;
 	let fadeInTime = 300;
 </script>
 
@@ -26,7 +26,11 @@
 	</div>
 
 	<div class="head">
-		<Head />
+		{#if img_focus == 2}
+			<TechnikHead />
+		{:else}
+			<Head />
+		{/if}
 	</div>
 
 	<div class="middle">
@@ -39,13 +43,9 @@
 				<Video />
 			</div>
 		{:else if img_focus == 2}
-			<div>
-				<Plot />
-			</div>
+			<RechtFoot />
+			<Plot />
 		{:else if img_focus == 3}
-			<!-- <Maria /> -->
-			<!-- <Konrad /> -->
-			<!-- <img class="aufruf" src="img/aufruf.png" alt="aufruf" /> -->
 			<div>
 				<h2>Aufruf von letzer Woche:</h2>
 				<article style="width:300px">
@@ -76,24 +76,39 @@
 		{/if}
 	</div>
 
-	<div class="side clouds">
-		<audio controls>
-			<source src="media/mikrowelle.mp3" type="audio/mpeg" />
-			<track kind="captions" />
-			Your browser does not support the audio tag.
-		</audio>
-		<!-- <div class="side {img_focus == null ? 'clouds' : ''}"> -->
-		<!-- {#if img_focus == 0}
+	<!-- <div class="side clouds"> -->
+	<div class="side {img_focus == null ? 'clouds' : ''}">
+		{#if img_focus == 0}
 			<div in:fade={{ duration: fadeInTime }}>
 				<Side0 />
 			</div>
 		{:else if img_focus == 1}
 			<div in:fade={{ duration: fadeInTime }}>
-				<Eliza />
+				<!-- <Eliza /> -->
+				<audio controls>
+					<source src="media/hecker.mp3" type="audio/mpeg" />
+					<track kind="captions" />
+					Your browser does not support the audio tag.
+				</audio>
+				<audio controls>
+					<source src="media/helge.m4a" type="audio/mpeg" />
+					<track kind="captions" />
+					Your browser does not support the audio tag.
+				</audio>
+				<audio controls>
+					<source src="media/linh.mp3" type="audio/mpeg" />
+					<track kind="captions" />
+					Your browser does not support the audio tag.
+				</audio>
+				<audio controls>
+					<source src="media/simplex.m4a" type="audio/mpeg" />
+					<track kind="captions" />
+					Your browser does not support the audio tag.
+				</audio>
 			</div>
 		{:else if img_focus == 2}
 			<div in:fade={{ duration: fadeInTime }}>
-				<Side2 />
+				<Elaine />
 			</div>
 		{:else if img_focus == 3}
 			<div in:fade={{ duration: fadeInTime }}>
@@ -104,8 +119,8 @@
 				<Side4 />
 			</div>
 		{:else}
-			<h2>{hmm}</h2>
-		{/if} -->
+			<h2>hmm</h2>
+		{/if}
 	</div>
 
 	<div class="tail">
@@ -122,6 +137,7 @@
 	.head {
 		/* background-color: #22861744; */
 		grid-area: head;
+		height: 550px;
 	}
 
 	.middle {
@@ -178,9 +194,9 @@
 		border-radius: 5px;
 	}
 
-	audio {
+	/* audio {
 		width: 100%;
-	}
+	} */
 
 	/* .aufruf {
 		height: 200px;

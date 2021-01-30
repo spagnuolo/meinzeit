@@ -51,17 +51,11 @@
     }
 </script>
 
-<h1>Caminandes: Llamigos</h1>
-<p>
-    From <a href="https://cloud.blender.org/open-projects"
-        >Blender Open Projects</a
-    >. CC-BY
-</p>
-
 <div>
+    <!-- poster="https://sveltejs.github.io/assets/caminandes-llamigos.jpg" -->
+    <!-- src="https://sveltejs.github.io/assets/caminandes-llamigos.mp4" -->
     <video
-        poster="https://sveltejs.github.io/assets/caminandes-llamigos.jpg"
-        src="https://sveltejs.github.io/assets/caminandes-llamigos.mp4"
+        src="media/klein.mp4"
         on:mousemove={handleMousemove}
         on:mousedown={handleMousedown}
         bind:currentTime={time}

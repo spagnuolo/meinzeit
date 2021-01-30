@@ -99,6 +99,7 @@
     .chart {
         width: 100%;
         max-width: 500px;
+        max-height: 400px;
         margin-left: auto;
         margin-right: auto;
     }
