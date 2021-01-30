@@ -16,7 +16,7 @@
 	import Elaine from "./Elaine.svelte";
 	import RechtFoot from "./RechtFoot.svelte";
 
-	let img_focus = 1;
+	let img_focus = 2;
 	let fadeInTime = 300;
 </script>
 
@@ -44,7 +44,6 @@
 			</div>
 		{:else if img_focus == 2}
 			<RechtFoot />
-			<Plot />
 		{:else if img_focus == 3}
 			<div>
 				<h2>Aufruf von letzer Woche:</h2>
@@ -155,11 +154,11 @@
 	.foot {
 		/* background-color: #86218f63; */
 		grid-area: foot;
-		height: 800px;
+		/* height: 800px; */
 
-		display: flex;
-		justify-content: space-around;
-		overflow: hidden;
+		/* display: flex;
+		justify-content: space-around; */
+		/* overflow: hidden; */
 	}
 
 	.tail {

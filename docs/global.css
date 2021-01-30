@@ -13,6 +13,7 @@ body {
 	box-sizing: border-box;
 	font-size: 16px;
 	font-size: 1em;
+	font-weight: 400;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	margin: 40px auto;
 	padding: 8px;
@@ -50,9 +51,9 @@ p {
 	/* margin: 0 12px 0 12px; */
 	width: 260px;
 }
-p:last-child::after {
+/* p:last-child::after {
 	content: " ☐";
-}
+} */
 
 ::selection {
 	/* color: black; */

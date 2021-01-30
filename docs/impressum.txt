@@ -18,3 +18,6 @@ img/prof.jpg
 
 img/angelo.jpg
 <span>Photo by <a href="https://unsplash.com/@hansenhouse?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Glenn Hansen</a> on <a href="https://unsplash.com/s/photos/mechanic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+img/angel.jpg
+<span>Photo by <a href="https://unsplash.com/@derveit?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Veit Hammer</a> on <a href="https://unsplash.com/s/photos/rip?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
