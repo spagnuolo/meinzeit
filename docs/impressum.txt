@@ -21,3 +21,10 @@ img/angelo.jpg
 
 img/angel.jpg
 <span>Photo by <a href="https://unsplash.com/@derveit?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Veit Hammer</a> on <a href="https://unsplash.com/s/photos/rip?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+img/simplex.jpg
+<span>Photo by <a href="https://unsplash.com/@etiennegodiard?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Étienne Godiard</a> on <a href="https://unsplash.com/s/photos/police?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+img/helge.jpg
+<span>Photo by <a href="https://unsplash.com/@vikubi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Victória Kubiaki</a> on <a href="https://unsplash.com/s/photos/mailman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+

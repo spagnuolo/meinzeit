@@ -54,18 +54,34 @@
             >
                 <!-- <img alt={d.alt} src={d.path} /> -->
 
-                <div
-                    class="brief"
-                    style="background-color:{d.color};"
-                    on:click={() => (selected = null)}
-                >
-                    <div class="written">
-                        <i>{d.text}</i>
-                        <br />
-                        <br />
-                        <i> {d.name} </i>
+                {#if d.audio}
+                    <div
+                        class="full"
+                        style="background-image: url({d.path});"
+                        on:click={() => (selected = null)}
+                    >
+                        <div class="binde" style="background-color:{d.color};">
+                            <i> {d.name} </i>
+                        </div>
+
+                        <audio controls style="background-color:{d.color};">
+                            <source src={d.audio_path} type="audio/mpeg" />
+                            <track kind="captions" />
+                            Your browser does not support the audio tag.
+                        </audio>
                     </div>
-                </div>
+                {:else}
+                    <div
+                        class="brief"
+                        style="background-color:{d.color};"
+                        on:click={() => (selected = null)}
+                    >
+                        <div class="written">
+                            <i>{d.text}</i>
+                            <i class="name"> {d.name} </i>
+                        </div>
+                    </div>
+                {/if}
             </div>
         {/await}
     {/if}
@@ -152,6 +168,26 @@
         object-fit: cover;
     } */
 
+    .binde {
+        color: #fdfdfd;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 600px;
+    }
+
+    audio {
+        width: 100%;
+        /* margin-top: 80%; */
+    }
+
+    .full {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
     .brief {
         text-align: center;
         width: 100%;
@@ -165,8 +201,22 @@
     }
 
     .written {
-        font-weight: bold;
+        /* font-size: 20px; */
+        /* height: 100%; */
         color: white;
-        padding: 32px;
+        /* padding: 32px; */
+
+        margin-left: 20px;
+        margin-right: 20px;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name {
+        margin-top: 20px;
     }
 </style>

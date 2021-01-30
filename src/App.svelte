@@ -16,7 +16,7 @@
 	import Elaine from "./Elaine.svelte";
 	import RechtFoot from "./RechtFoot.svelte";
 
-	let img_focus = 2;
+	let img_focus = 3;
 	let fadeInTime = 300;
 </script>
 
