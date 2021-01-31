@@ -9,7 +9,7 @@
             title: "Chancen der Inklusion",
         },
         { active: false, url: "img/05.jpg", title: "Technik" },
-        { active: false, url: "img/04.jpg", title: "Meinungsbild" },
+        { active: false, url: "img/writting.jpg", title: "Meinungsbild" },
         { active: false, url: "img/03.jpg", title: "Fluss" },
     ];
 

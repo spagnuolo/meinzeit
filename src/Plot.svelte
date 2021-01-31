@@ -6,8 +6,8 @@
     const xTicks = [2015, 2020, 2025, 2030];
     const padding = { top: 20, right: 15, bottom: 20, left: 45 };
 
-    let width = 500;
-    let height = 400;
+    let width = 550;
+    let height = 300;
 
     $: xScale = scaleLinear()
         .domain([minX, maxX])
@@ -98,8 +98,8 @@
 <style>
     .chart {
         width: 100%;
-        max-width: 500px;
-        max-height: 400px;
+        max-width: 550px;
+        max-height: 300px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -107,7 +107,7 @@
     svg {
         position: relative;
         width: 100%;
-        height: 400px;
+        height: 300px;
         overflow: visible;
     }
 

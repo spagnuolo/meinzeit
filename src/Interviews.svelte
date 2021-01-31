@@ -23,72 +23,107 @@
 
         img.src = image.path;
     };
+
+    var res = document.querySelector("audio");
+    console.log(res);
 </script>
 
-<div class="container">
-    <!-- <div class="phone"> -->
-    <h1>Leserbriefe</h1>
-
-    <div class="grid">
-        {#each interviews as image}
-            {#if selected !== image}
-                <!-- style="background-color: {image.color};" -->
-                <button
-                    style="background-image: url({image.path});background-position:{image.x} {image.y};"
-                    on:click={() => load(image)}
-                    in:receive={{ key: image.id }}
-                    out:send={{ key: image.id }}
-                >
-                    <!-- {loading === image ? "..." : image.id} -->
-                </button>
-            {/if}
-        {/each}
+<div class="flexbox">
+    <div>
+        <h2>Aufruf von letzer Woche:</h2>
+        <article style="width:300px">
+            Liebe Leser*innen,
+            <br />
+            <br />
+            <div style="text-align:justify;">
+                ihre Meinung ist wieder gefragt. Diesmal zu einem sehr aktuellem
+                Thema: Das elektro-betriebene autonome Fahrzeug. Wie erleben Sie
+                diese neue Technologie, die uns nun schon seit mehreren Wochen
+                begleitet? Was hat sich für Sie beruflich oder privat verändert,
+                seit der Vollautomatisierungspflicht? Besitzen Sie selbst ein
+                autonomes Auto? Haben Sie dies-bezüglich Ängste oder Sorgen? Wir
+                wollen wissen, was Sie beschäftigt!
+            </div>
+            <br />
+            <br />
+            Mit freundlichen
+            <br />
+            <br />
+            Grüßen Ihre Redaktion
+        </article>
     </div>
 
-    {#if selected}
-        {#await selected then d}
-            <div
-                class="overlay"
-                in:receive={{ key: d.id }}
-                out:send={{ key: d.id }}
-            >
-                <!-- <img alt={d.alt} src={d.path} /> -->
+    <div class="container">
+        <!-- <div class="phone"> -->
+        <h1>Leserantworten</h1>
 
-                {#if d.audio}
-                    <div
-                        class="full"
-                        style="background-image: url({d.path});"
-                        on:click={() => (selected = null)}
+        <div class="grid">
+            {#each interviews as image}
+                {#if selected !== image}
+                    <!-- style="background-color: {image.color};" -->
+                    <button
+                        style="background-image: url({image.path});background-position:{image.x} {image.y};"
+                        on:click={() => load(image)}
+                        in:receive={{ key: image.id }}
+                        out:send={{ key: image.id }}
                     >
-                        <div class="binde" style="background-color:{d.color};">
-                            <i> {d.name} </i>
-                        </div>
-
-                        <audio controls style="background-color:{d.color};">
-                            <source src={d.audio_path} type="audio/mpeg" />
-                            <track kind="captions" />
-                            Your browser does not support the audio tag.
-                        </audio>
-                    </div>
-                {:else}
-                    <div
-                        class="brief"
-                        style="background-color:{d.color};"
-                        on:click={() => (selected = null)}
-                    >
-                        <div class="written">
-                            <i>{d.text}</i>
-                            <i class="name"> {d.name} </i>
-                        </div>
-                    </div>
+                        <!-- {loading === image ? "..." : image.id} -->
+                    </button>
                 {/if}
-            </div>
-        {/await}
-    {/if}
-    <!-- </div> -->
+            {/each}
+        </div>
+
+        {#if selected}
+            {#await selected then d}
+                <div
+                    class="overlay"
+                    in:receive={{ key: d.id }}
+                    out:send={{ key: d.id }}
+                >
+                    <!-- <img alt={d.alt} src={d.path} /> -->
+
+                    {#if d.audio}
+                        <div
+                            class="full"
+                            style="background-image: url({d.path});"
+                            on:click={() => (selected = null)}
+                        >
+                            <div class="binde">
+                                <i> {d.name} </i>
+                            </div>
+
+                            <!-- <audio controls style="background-color:{d.color};"> -->
+                            <audio controls>
+                                <source src={d.audio_path} type="audio/mpeg" />
+                                <track kind="captions" />
+                                Your browser does not support the audio tag.
+                            </audio>
+                        </div>
+                    {:else}
+                        <div
+                            class="brief"
+                            style="background-color:{d.color};"
+                            on:click={() => (selected = null)}
+                        >
+                            <div class="written">
+                                <i>{d.text}</i>
+                                <i class="name"> {d.name} </i>
+                            </div>
+                        </div>
+                    {/if}
+                </div>
+            {/await}
+        {/if}
+        <!-- </div> -->
+    </div>
 </div>
 
 <style>
+    .flexbox {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     .container {
         /* position: absolute; */
         /* display: flex; */
@@ -173,11 +208,13 @@
         font-size: 20px;
         text-align: center;
         margin-top: 600px;
+        background-color: rgb(26, 26, 26);
     }
 
     audio {
         width: 100%;
         /* margin-top: 80%; */
+        background-color: rgb(26, 26, 26);
     }
 
     .full {

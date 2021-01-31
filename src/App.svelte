@@ -1,23 +1,16 @@
 <script>
 	import { fade } from "svelte/transition";
-	import Title from "./Title.svelte";
-	import Head from "./Head.svelte";
-	import TechnikHead from "./TechnikHead.svelte";
-	import Gallery from "./Gallery.svelte";
-	import Interviews from "./Interviews.svelte";
-	import Foot from "./Foot.svelte";
-	import Plot from "./Plot.svelte";
-	import Tail from "./Tail.svelte";
-	import Video from "./Video.svelte";
-	import Side0 from "./Side0.svelte";
-	import Side2 from "./Side2.svelte";
-	import Side3 from "./Side3.svelte";
-	import Side4 from "./Side4.svelte";
 	import Elaine from "./Elaine.svelte";
+	import Gallery from "./Gallery.svelte";
+	import Head from "./Head.svelte";
+	import Interviews from "./Interviews.svelte";
 	import RechtFoot from "./RechtFoot.svelte";
+	import Tail from "./Tail.svelte";
+	import TechnikHead from "./TechnikHead.svelte";
+	import Title from "./Title.svelte";
 
-	let img_focus = 3;
-	let fadeInTime = 300;
+	let img_focus = 0;
+	let fadeInTime = 0;
 </script>
 
 <div class="main">
@@ -26,10 +19,12 @@
 	</div>
 
 	<div class="head">
-		{#if img_focus == 2}
+		{#if img_focus == 0}
+			<Head />
+		{:else if img_focus == 2}
 			<TechnikHead />
 		{:else}
-			<Head />
+			<div class="clouds" />
 		{/if}
 	</div>
 
@@ -39,86 +34,35 @@
 
 	<div class="foot">
 		{#if img_focus == 1}
-			<div class="player">
-				<Video />
-			</div>
+			<div class="clouds" />
 		{:else if img_focus == 2}
 			<RechtFoot />
 		{:else if img_focus == 3}
-			<div>
-				<h2>Aufruf von letzer Woche:</h2>
-				<article style="width:300px">
-					Liebe Leser*innen,
-					<br />
-					<br />
-					<div style="text-align:justify;">
-						ihre Meinung ist wieder gefragt. Diesmal zu einem sehr
-						aktuellem Thema: Das elektro-betriebene autonome
-						Fahrzeug. Wie erleben Sie diese neue Technologie, die
-						uns nun schon seit mehreren Wochen begleitet? Was hat
-						sich für Sie beruflich oder privat verändert, seit der
-						Vollautomatisierungspflicht? Besitzen Sie selbst ein
-						autonomes Auto? Haben Sie dies-bezüglich Ängste oder
-						Sorgen? Wir wollen wissen, was Sie beschäftigt!
-					</div>
-					<br />
-					<br />
-					Mit freundlichen
-					<br />
-					<br />
-					Grüßen Ihre Redaktion
-				</article>
-			</div>
 			<Interviews />
 		{:else}
-			<Foot />
+			<div class="clouds" />
 		{/if}
 	</div>
 
 	<!-- <div class="side clouds"> -->
 	<div class="side {img_focus == null ? 'clouds' : ''}">
 		{#if img_focus == 0}
-			<div in:fade={{ duration: fadeInTime }}>
-				<Side0 />
+			<div class="clouds" in:fade={{ duration: fadeInTime }}>
+				<div class="clouds" />
+				<!-- <Side0 /> -->
 			</div>
 		{:else if img_focus == 1}
-			<div in:fade={{ duration: fadeInTime }}>
-				<!-- <Eliza /> -->
-				<audio controls>
-					<source src="media/hecker.mp3" type="audio/mpeg" />
-					<track kind="captions" />
-					Your browser does not support the audio tag.
-				</audio>
-				<audio controls>
-					<source src="media/helge.m4a" type="audio/mpeg" />
-					<track kind="captions" />
-					Your browser does not support the audio tag.
-				</audio>
-				<audio controls>
-					<source src="media/linh.mp3" type="audio/mpeg" />
-					<track kind="captions" />
-					Your browser does not support the audio tag.
-				</audio>
-				<audio controls>
-					<source src="media/simplex.m4a" type="audio/mpeg" />
-					<track kind="captions" />
-					Your browser does not support the audio tag.
-				</audio>
-			</div>
+			<div class="clouds" in:fade={{ duration: fadeInTime }} />
 		{:else if img_focus == 2}
 			<div in:fade={{ duration: fadeInTime }}>
 				<Elaine />
 			</div>
 		{:else if img_focus == 3}
-			<div in:fade={{ duration: fadeInTime }}>
-				<Side3 />
-			</div>
+			<div class="clouds" in:fade={{ duration: fadeInTime }} />
 		{:else if img_focus == 4}
-			<div in:fade={{ duration: fadeInTime }}>
-				<Side4 />
-			</div>
+			<div class="clouds" in:fade={{ duration: fadeInTime }} />
 		{:else}
-			<h2>hmm</h2>
+			<div class="clouds" />
 		{/if}
 	</div>
 
@@ -136,7 +80,7 @@
 	.head {
 		/* background-color: #22861744; */
 		grid-area: head;
-		height: 550px;
+		height: 520px;
 	}
 
 	.middle {
@@ -154,11 +98,11 @@
 	.foot {
 		/* background-color: #86218f63; */
 		grid-area: foot;
-		/* height: 800px; */
+		height: 900px;
 
 		/* display: flex;
 		justify-content: space-around; */
-		/* overflow: hidden; */
+		overflow: hidden;
 	}
 
 	.tail {
@@ -179,12 +123,12 @@
 			"tail tail tail tail";
 	}
 
-	.player {
+	/* .player {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		margin: 20px;
-	}
+	} */
 
 	.clouds {
 		height: 100%;

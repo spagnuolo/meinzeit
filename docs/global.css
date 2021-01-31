@@ -49,7 +49,7 @@ p {
 	/* text-align: justify;
 	text-align-last: justify; */
 	/* margin: 0 12px 0 12px; */
-	width: 260px;
+	width: 265px;
 }
 /* p:last-child::after {
 	content: " ☐";
@@ -58,6 +58,16 @@ p {
 ::selection {
 	/* color: black; */
 	background: rgb(255, 255, 125);
+}
+
+audio::-webkit-media-controls-play-button{
+	background-color:green;}
+#controlBar {
+
+	background-color: #ffffff;
+}
+audio::-webkit-media-controls-panel {
+	background-color: white;
 }
 
 @media screen and (max-width: 1280px) {
