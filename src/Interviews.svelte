@@ -1,6 +1,7 @@
 <script>
     import { crossfade, scale } from "svelte/transition";
     import interviews from "./interviews.js";
+    import Video from "./Video.svelte";
 
     const [send, receive] = crossfade({
         duration: 300,
@@ -88,16 +89,29 @@
                             style="background-image: url({d.path});"
                             on:click={() => (selected = null)}
                         >
-                            <div class="binde">
+                            <div
+                                class="binde"
+                                style="background-color: {d.color};"
+                            >
                                 <i> {d.name} </i>
                             </div>
 
                             <!-- <audio controls style="background-color:{d.color};"> -->
-                            <audio controls>
+                            <audio autoplay="true">
                                 <source src={d.audio_path} type="audio/mpeg" />
                                 <track kind="captions" />
                                 Your browser does not support the audio tag.
                             </audio>
+                        </div>
+                    {:else if d.video}
+                        <div
+                            class="full flexbox"
+                            style="background-color: black;"
+                            on:click={() => (selected = null)}
+                        >
+                            <video src="media/klein.mp4" autoplay="true">
+                                <track kind="captions" />
+                            </video>
                         </div>
                     {:else}
                         <div
@@ -211,6 +225,10 @@
         background-color: rgb(26, 26, 26);
     }
 
+    video {
+        width: 100%;
+    }
+
     audio {
         width: 100%;
         /* margin-top: 80%; */
@@ -223,6 +241,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        cursor: pointer;
     }
 
     .brief {

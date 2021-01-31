@@ -11,7 +11,7 @@
 	import TechnikHead from "./TechnikHead.svelte";
 	import Title from "./Title.svelte";
 
-	let img_focus = 0;
+	let img_focus = 2;
 	let fadeInTime = 0;
 </script>
 
@@ -25,6 +25,8 @@
 			<Head />
 		{:else if img_focus == 1}
 			<TechnikHead />
+		{:else if img_focus == 3}
+			<Head />
 		{:else}
 			<div class="clouds" />
 		{/if}

@@ -3,9 +3,9 @@
 
     let panels = [
         { active: false, url: "img/01.jpg", title: "Titel? und BILD" },
-        { active: false, url: "img/05.jpg", title: "Technik" },
+        { active: false, url: "img/02.jpg", title: "Alles rund ums AA" },
         { active: false, url: "img/writting.jpg", title: "Meinungsbild" },
-        { active: false, url: "img/03.jpg", title: "Fluss" },
+        { active: false, url: "img/03.jpg", title: "Fazit und BILD" },
     ];
 
     panels[focus].active = true;
@@ -62,7 +62,7 @@
     }
 
     .panel.true {
-        flex: 5;
+        flex: 3;
     }
 
     .panel.true h3 {
