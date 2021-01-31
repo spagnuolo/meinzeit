@@ -1,13 +1,27 @@
 <div>
-    <img src="img/angel.jpg" alt="old and rusty statue of an angel" />
+    <h2>Definition von Autonomen Fahren Stufe 5</h2>
+    <p>
+        In der fünften Stufe gibt es nur Passagier*innen ohne Fahraufgabe.
+        Lediglich das Festlegen eines Ziels und Starten des Systems erfordert
+        menschliches Eingreifen. Alle übrigen Aufgaben werden selbstständig vom
+        Fahrzeug übernommen. Auch schwere Verkehrssituationen, wie das Queren
+        einer Kreuzung, Kreiselverkehr oder das Verhalten am Zebrastreifen kann
+        das autonome System bewältigen. Fahrten ohne Passagiere ist ebenso
+        möglich. Bei Regelverstößen, Schäden oder Verkehrsunfällen werden die
+        Passagier*innen nicht zur Verantwortung gezogen und sind nicht haftbar.
+    </p>
+    <img
+        src="img/angel.jpg"
+        alt="old and rusty statue of an angel on an graveyard next to a tree"
+    />
     <h2>Elaine Herzberg</h2>
     <p>
-        Elaine Herzberg Der erste fatale Unfall mit einem selbstfahrenden Auto
-        fand 2018 im Bundesstaat Arizona statt. Das Fahrzeug der Firma Uber
-        führte eine Testfahrt durch und war mit einem Fahrer bemannt, der im
-        Notfall jederzeit eingreifen kann. Elaine Herzberg, 49 Jahre, lief mit
-        ihrem Fahrrad am Straßenrand. Das Wetter war klar und trocken. Mensch
-        und Maschine waren nicht in der Lage den Unfall zu verhindern, so nach
+        Der erste fatale Unfall mit einem selbstfahrenden Auto fand 2018 im
+        Bundesstaat Arizona statt. Das Fahrzeug der Firma Uber führte eine
+        Testfahrt durch und war mit einem Fahrer bemannt, der im Notfall
+        jederzeit eingreifen kann. Elaine Herzberg, 49 Jahre, lief mit ihrem
+        Fahrrad am Straßenrand. Das Wetter war klar und trocken. Mensch und
+        Maschine waren nicht in der Lage den Unfall zu verhindern, so nach
         Begutachtern.
     </p>
     <p>
@@ -50,7 +64,9 @@
 
 <style>
     div {
-        margin: 16px;
+        margin: 0;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     img {
@@ -59,12 +75,16 @@
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 800;
+        text-align: center;
+        margin: 0;
     }
 
     p {
         text-align: justify;
         text-align-last: justify;
+        margin: 0;
+        margin-bottom: 16px;
     }
 </style>

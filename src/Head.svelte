@@ -1,7 +1,7 @@
 <h2>Autonomes Fahren: Forschungsfrage hier?</h2>
 <div>
     <p class="block">
-        In unserer zweiten diesjährigen Ausgabe sollen es um die bis jetzt
+        In unserer zweiten diesjährigen Ausgabe soll es um die bis jetzt
         mitunter größte Errungenschaft des 21. Jahrhunderts gehen: Das autonome
         Fahrzeug. Noch vor 10 Jahren war der Verkehr in Deutschland geprägt von
         umwelt-schädlichen Verbrennungsmotoren, einer unvernetzten Infrastruktur

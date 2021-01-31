@@ -1,8 +1,10 @@
 <script>
 	import { fade } from "svelte/transition";
+	import Definitions from "./Definitions.svelte";
 	import Elaine from "./Elaine.svelte";
 	import Gallery from "./Gallery.svelte";
 	import Head from "./Head.svelte";
+	import FootTeilhabe from "./FootTeilhabe.svelte";
 	import Interviews from "./Interviews.svelte";
 	import RechtFoot from "./RechtFoot.svelte";
 	import Tail from "./Tail.svelte";
@@ -21,6 +23,8 @@
 	<div class="head">
 		{#if img_focus == 0}
 			<Head />
+		{:else if img_focus == 1}
+			<div class="clouds" />
 		{:else if img_focus == 2}
 			<TechnikHead />
 		{:else}
@@ -33,8 +37,8 @@
 	</div>
 
 	<div class="foot">
-		{#if img_focus == 1}
-			<div class="clouds" />
+		{#if img_focus == 0}
+			<FootTeilhabe />
 		{:else if img_focus == 2}
 			<RechtFoot />
 		{:else if img_focus == 3}
@@ -47,12 +51,11 @@
 	<!-- <div class="side clouds"> -->
 	<div class="side {img_focus == null ? 'clouds' : ''}">
 		{#if img_focus == 0}
-			<div class="clouds" in:fade={{ duration: fadeInTime }}>
-				<div class="clouds" />
-				<!-- <Side0 /> -->
+			<div in:fade={{ duration: fadeInTime }}>
+				<Definitions />
 			</div>
 		{:else if img_focus == 1}
-			<div class="clouds" in:fade={{ duration: fadeInTime }} />
+			<div in:fade={{ duration: fadeInTime }} />
 		{:else if img_focus == 2}
 			<div in:fade={{ duration: fadeInTime }}>
 				<Elaine />
