@@ -3,11 +3,6 @@
 
     let panels = [
         { active: false, url: "img/01.jpg", title: "Titel? und BILD" },
-        {
-            active: false,
-            url: "img/rollstuhl_treppe.jpg",
-            title: "Titel??",
-        },
         { active: false, url: "img/05.jpg", title: "Technik" },
         { active: false, url: "img/writting.jpg", title: "Meinungsbild" },
         { active: false, url: "img/03.jpg", title: "Fluss" },

@@ -71,7 +71,6 @@
 
     p {
         text-align: justify;
-        text-align-last: justify;
         margin: 0;
         margin-bottom: 10px;
     }

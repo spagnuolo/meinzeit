@@ -24,8 +24,6 @@
 		{#if img_focus == 0}
 			<Head />
 		{:else if img_focus == 1}
-			<div class="clouds" />
-		{:else if img_focus == 2}
 			<TechnikHead />
 		{:else}
 			<div class="clouds" />
@@ -39,9 +37,9 @@
 	<div class="foot">
 		{#if img_focus == 0}
 			<FootTeilhabe />
-		{:else if img_focus == 2}
+		{:else if img_focus == 1}
 			<RechtFoot />
-		{:else if img_focus == 3}
+		{:else if img_focus == 2}
 			<Interviews />
 		{:else}
 			<div class="clouds" />
@@ -55,14 +53,12 @@
 				<Definitions />
 			</div>
 		{:else if img_focus == 1}
-			<div in:fade={{ duration: fadeInTime }} />
-		{:else if img_focus == 2}
 			<div in:fade={{ duration: fadeInTime }}>
 				<Elaine />
 			</div>
-		{:else if img_focus == 3}
+		{:else if img_focus == 2}
 			<div class="clouds" in:fade={{ duration: fadeInTime }} />
-		{:else if img_focus == 4}
+		{:else if img_focus == 3}
 			<div class="clouds" in:fade={{ duration: fadeInTime }} />
 		{:else}
 			<div class="clouds" />
