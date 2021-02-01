@@ -30,30 +30,32 @@
 </script>
 
 <div class="flexbox">
-    <div>
-        <h2>Aufruf von letzer Woche:</h2>
-        <article style="width:300px">
-            Liebe Leser*innen,
-            <br />
-            <br />
-            <div style="text-align:justify;">
-                ihre Meinung ist wieder gefragt. Diesmal zu einem sehr aktuellem
-                Thema: Das elektro-betriebene autonome Fahrzeug. Wie erleben Sie
-                diese neue Technologie, die uns nun schon seit mehreren Wochen
-                begleitet? Was hat sich für Sie beruflich oder privat verändert,
-                seit der Vollautomatisierungspflicht? Besitzen Sie selbst ein
-                autonomes Auto? Haben Sie dies-bezüglich Ängste oder Sorgen? Wir
-                wollen wissen, was Sie beschäftigt!
-            </div>
-            <br />
-            <br />
-            Mit freundlichen
-            <br />
-            <br />
-            Grüßen Ihre Redaktion
-        </article>
+    <div class="vcenter">
+        <div>
+            <h2>Aufruf aus unserer letzten Ausgabe:</h2>
+            <article style="width:500px">
+                Liebe Leser*innen,
+                <br />
+                <br />
+                <br />
+                ihre Meinung ist wieder gefragt. Diesmal zu dem sehr aktuellen Thema:
+                Das elektro-betriebene autonome Fahrzeug. Wie erleben Sie diese neue
+                Technologie, die uns nun schon seit einiger Zeit begleitet? Was hat
+                sich für Sie beruflich oder privat verändert, seit der Vollautomatisierungspflicht
+                und der Abschaffung des Individualbesitzes? Haben Sie diesbezüglich
+                Bedenken, Ängste oder Sorgen? Haben Sie überhaupt Zugang zu dieser
+                neuen Technik? Wir wollen wissen, was Sie beschäftigt!
+                <br />
+                <br />
+                <br />
+                Mit freundlichen
+                <br />
+                <br />
+                Grüßen Ihre Redaktion
+            </article>
+            <img id="karikatur" src="img/natoll.png" alt="" />
+        </div>
     </div>
-
     <div class="container">
         <!-- <div class="phone"> -->
         <h1>Leserantworten</h1>
@@ -134,8 +136,14 @@
 
 <style>
     .flexbox {
+        width: 100%;
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .vcenter {
+        display: flex;
+        align-items: center;
     }
 
     .container {
@@ -274,5 +282,10 @@
 
     .name {
         margin-top: 20px;
+    }
+
+    #karikatur {
+        width: 500px;
+        border-radius: 50%;
     }
 </style>

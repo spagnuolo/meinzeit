@@ -83,8 +83,9 @@
     }
 
     img {
-        width: 340px;
-        border-radius: 4px;
+        width: 90%;
+        border-radius: 100%;
+        /* transform: scale(1.5); */
     }
 
     h2 {

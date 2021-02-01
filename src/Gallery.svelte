@@ -55,6 +55,10 @@
         transition: all 300ms ease-in;
     }
 
+    .panel:hover {
+        transform: scale(0.95);
+    }
+
     .panel h3 {
         font-size: 24px;
         text-shadow: 0 0 4px black;
