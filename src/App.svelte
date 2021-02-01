@@ -2,16 +2,20 @@
 	import { fade } from "svelte/transition";
 	import Definitions from "./Definitions.svelte";
 	import Elaine from "./Elaine.svelte";
+	import Ethik from "./Ethik.svelte";
+	import Fazit from "./Fazit.svelte";
+	import FootTeilhabe from "./FootTeilhabe.svelte";
 	import Gallery from "./Gallery.svelte";
 	import Head from "./Head.svelte";
-	import FootTeilhabe from "./FootTeilhabe.svelte";
+	import HeadMobil from "./HeadMobil.svelte";
+	import Karikatur from "./Karikatur.svelte";
 	import Interviews from "./Interviews.svelte";
 	import RechtFoot from "./RechtFoot.svelte";
 	import Tail from "./Tail.svelte";
 	import TechnikHead from "./TechnikHead.svelte";
 	import Title from "./Title.svelte";
 
-	let img_focus = 2;
+	let img_focus = 0;
 	let fadeInTime = 0;
 </script>
 
@@ -20,11 +24,13 @@
 		<Title />
 	</div>
 
-	<div class="head">
+	<div class="head vcenter">
 		{#if img_focus == 0}
 			<Head />
 		{:else if img_focus == 1}
 			<TechnikHead />
+		{:else if img_focus == 2}
+			<HeadMobil />
 		{:else if img_focus == 3}
 			<Head />
 		{:else}
@@ -36,32 +42,29 @@
 		<Gallery bind:focus={img_focus} />
 	</div>
 
-	<div class="foot">
+	<div class="foot vcenter">
 		{#if img_focus == 0}
 			<FootTeilhabe />
 		{:else if img_focus == 1}
 			<RechtFoot />
 		{:else if img_focus == 2}
 			<Interviews />
+		{:else if img_focus == 3}
+			<Karikatur />
 		{:else}
 			<div class="clouds" />
 		{/if}
 	</div>
 
-	<!-- <div class="side clouds"> -->
 	<div class="side {img_focus == null ? 'clouds' : ''}">
 		{#if img_focus == 0}
-			<div in:fade={{ duration: fadeInTime }}>
-				<Definitions />
-			</div>
+			<Definitions />
 		{:else if img_focus == 1}
-			<div in:fade={{ duration: fadeInTime }}>
-				<Elaine />
-			</div>
+			<Elaine />
 		{:else if img_focus == 2}
-			<div class="clouds" in:fade={{ duration: fadeInTime }} />
+			<Ethik />
 		{:else if img_focus == 3}
-			<div class="clouds" in:fade={{ duration: fadeInTime }} />
+			<Fazit />
 		{:else}
 			<div class="clouds" />
 		{/if}
@@ -73,6 +76,11 @@
 </div>
 
 <style>
+	.vcenter {
+		display: flex;
+		align-items: center;
+	}
+
 	.title {
 		/* background-color: #12341234; */
 		grid-area: title;
@@ -81,19 +89,22 @@
 	.head {
 		/* background-color: #22861744; */
 		grid-area: head;
-		height: 520px;
+		height: 550px;
+		/* display: flex; */
+		/* align-items: center; */
 	}
 
 	.middle {
 		/* background-color: #632e1734; */
 		grid-area: middle;
-		height: 350px;
+		height: 450px;
 		margin: 10px 0 10px 0;
 	}
 
 	.side {
 		/* background-color: #11798b49; */
 		grid-area: side;
+		height: 2000px;
 	}
 
 	.foot {

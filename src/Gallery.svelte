@@ -3,7 +3,11 @@
 
     let panels = [
         { active: false, url: "img/01.jpg", title: "Titel? und BILD" },
-        { active: false, url: "img/02.jpg", title: "Alles rund ums AA" },
+        {
+            active: false,
+            url: "img/02.jpg",
+            title: "Alles rund um das autonome Auto",
+        },
         { active: false, url: "img/writting.jpg", title: "Meinungsbild" },
         { active: false, url: "img/03.jpg", title: "Fazit und BILD" },
     ];
