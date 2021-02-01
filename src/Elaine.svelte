@@ -67,7 +67,11 @@
             haftbar.
         </p>
     </div>
-    <img src="img/arbeit.png" alt="Fahrerlaubnis aber keine Arbeit..." />
+    <img
+        id="karikatur"
+        src="img/arbeit.png"
+        alt="Fahrerlaubnis aber keine Arbeit..."
+    />
 </div>
 
 <style>
@@ -80,6 +84,12 @@
         justify-content: space-evenly;
     }
 
+    #karikatur {
+        border: solid;
+        border-radius: 20px;
+        width: 90%;
+    }
+
     div {
         width: 340px;
     }
@@ -90,7 +100,7 @@
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 28px;
         font-weight: 800;
         text-align: center;
         margin: 0;

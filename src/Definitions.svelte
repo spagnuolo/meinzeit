@@ -89,7 +89,7 @@
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 800;
         text-align: center;
         margin: 0;

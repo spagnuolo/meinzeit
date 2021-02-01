@@ -78,7 +78,7 @@
         margin: 0;
         margin-bottom: 16px;
         font-weight: 800;
-        font-size: 24px;
+        font-size: 26px;
         text-align: center;
     }
 

@@ -1,12 +1,19 @@
 <hr />
-<div>
-    <a href="/">FRA UAS - ISG 20/21</a>
+<div class="container">
+    <div>show bullshit</div>
+    <div>
+        zum <a href="./impressum.html">Impressum</a>
+    </div>
+    <div />
 </div>
 
 <style>
-    div {
-        text-align: right;
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
+
     a,
     a:hover,
     a:active {

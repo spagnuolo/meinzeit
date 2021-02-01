@@ -2,14 +2,14 @@
     export let focus = 0;
 
     let panels = [
-        { active: false, url: "img/01.jpg", title: "Titel? und BILD" },
+        { active: false, url: "img/01.jpg", title: "Das Autonome Auto!" },
         {
             active: false,
             url: "img/02.jpg",
-            title: "Alles rund um das autonome Auto",
+            title: "Alles rund um das autonome Auto.",
         },
         { active: false, url: "img/writting.jpg", title: "Meinungsbild" },
-        { active: false, url: "img/03.jpg", title: "Fazit und BILD" },
+        { active: false, url: "img/smarthome.jpg", title: "Unser Fazit!" },
     ];
 
     panels[focus].active = true;
@@ -45,7 +45,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        filter: grayscale(80%);
+        /* filter: grayscale(80%); */
         height: 100%;
         border-radius: 5px;
         color: #ffffff;

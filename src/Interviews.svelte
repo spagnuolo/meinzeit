@@ -110,7 +110,11 @@
                             style="background-color: black;"
                             on:click={() => (selected = null)}
                         >
-                            <video src={d.video_path} autoplay="true">
+                            <video
+                                src={d.video_path}
+                                poster="img/dots.png"
+                                autoplay="true"
+                            >
                                 <track kind="captions" />
                             </video>
                         </div>

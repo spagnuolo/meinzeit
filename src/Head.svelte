@@ -1,5 +1,7 @@
 <div class="headline">
-    <h2>Autonomes Fahren: Forschungsfrage hier?</h2>
+    <h2>
+        Autonomes Fahren: Sind autonome Fahrzeuge ein exklusives Zukunftsmodell?
+    </h2>
     <div class="container">
         <div class="column">
             <p class="block">

@@ -44,7 +44,7 @@
 <style>
     h1 {
         font-family: Georgia, "Times New Roman", Times, serif;
-        font-size: 60px;
+        font-size: 80px;
         text-align: center;
         text-transform: uppercase;
         margin: 16px 0 0 0;
