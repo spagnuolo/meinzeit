@@ -15,7 +15,7 @@
 	import TechnikHead from "./TechnikHead.svelte";
 	import Title from "./Title.svelte";
 
-	let img_focus = 0;
+	let img_focus = 2;
 	let fadeInTime = 0;
 </script>
 
@@ -89,7 +89,7 @@
 	.head {
 		/* background-color: #22861744; */
 		grid-area: head;
-		height: 550px;
+		height: 650px;
 		/* display: flex; */
 		/* align-items: center; */
 	}
@@ -104,7 +104,7 @@
 	.side {
 		/* background-color: #11798b49; */
 		grid-area: side;
-		height: 2000px;
+		height: 2200px;
 	}
 
 	.foot {

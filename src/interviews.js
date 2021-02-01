@@ -42,18 +42,18 @@ export default [
         text: 'Also wir sind absolute Fans, seit wir Rentner sind haben wir uns mit der neuen Technik befasst und haben aufgerüstet. Eigentlich wird jedes neue Produkt ausprobiert und fast immer behalten. Wir haben die Zeit dafür und es macht Spaß. Ganz besonders großartig ist das autonome Fahren! Wir leben auf dem Land, wodurch unsere Bewegungsfreiheit vor dem autonomen Fahrzeug stark eingeschränkt war. Mein Mann und ich haben Probleme mit der Sehkraft und unserem Reaktionsvermögen, weshalb wir uns beim Autofahren immer sehr unsicher fühlten und Busse in die nächste Stadt fuhren bloß drei Mal am Tag. Heute setzen wir uns bloß ins Auto, sagen, wohin es gehen soll und werden einfach und schnell dorthin gefahren. Wir brauchen uns keinerlei Sorgen um Unfälle zu machen!  Wir haben auch drei eigene autonome Autos in der Familie, dieses Carsharing wäre nichts für uns. Was ist, wenn mal keins abrufbar wäre …? Und am besten ist, dass wir unsere Enkelkinder regelmäßig zu Besuch haben können. Die leben nämlich anderthalb Stunden von uns entfernt, in der Stadt. Früher haben wir sie vielleicht einmal im Monat gesehen, wenn überhaupt. Heute besuchen die beiden uns zweimal die Woche! Dienstags und donnerstags nach der Schule lassen die zwei sich abholen und sind im Nu da! Vor einigen Jahren hätten wir davon nur träumen können. Natürlich gibt es auch Nachteile, zum Beispiel hätten wir uns gefreut, wenn unsere Enkelkinder noch mit dem Fahrrad zur Schule fahren könnten, wegen dem Verbot von Hybrid-Verkehr ist das aber leider nicht möglich. Trotzdem ist es uns das allemal wert. Dafür bringen wir ihnen das Fahrradfahren jetzt auf unserem Hof bei, immerhin sind sie da auch sicher, denn es ist immer ein Erwachsener in der Nähe.'
     },
     {
-        color: '#5b3f2f',
-        id: '4',
-        alt: 'Bild von Konrad (57) Fahrlehrer',
-        path: 'img/driver.jpg',
-        video: false,
-        video_path: '',
+        color: '#454545',
+        id: '9',
+        alt: 'Bild von Johann Klein , 32 J.',
+        path: 'img/klein.png',
+        video: true,
+        video_path: 'media/klein_sub.mp4',
         audio: false,
         audio_path: '',
-        x: '0px',
+        x: '-45px',
         y: '0px',
-        name: 'Konrad (57) Fahrlehrer',
-        text: '„Durch die Vollautomatisierungspflicht fiel mein Berufszweig zur Gänze weg. Keiner muss sich noch einer Fahrprüfung unterziehen, jetzt da jeder von einer Maschine rumkutschiert wird. Ich verstehe nicht, wie die Menschen einer Maschine eher vertrauen als sich selbst und sich so leicht durch einen Roboter ersetzten lassen. Langfristig gesehen werden wir alle verlernen Auto zu fahren und dann gibt es kein Zurück mehr. Dann kann man auch im Notfall nicht mehr die Kontrolle zurückgewinnen. Ich habe es geliebt Auto zu fahren, deshalb bin ich auch Fahrlehrer geworden. Auto fahren half mir schon immer dabei mein Gehirn zur Ruhe kommen zu lassen, indem ich mich einfach nur auf das Fahren konzentrierte und dabei Sorgen, Probleme oder Fragen meines Alltags vergaß. Mit der Vollautomatisierungpflicht wurde mir nicht nur mein Beruf genommen, sondern auch meine Rückzugsort und meine Leidenschaft! Der Staat hat mir zwar Angebote gemacht mich umzuschulen, aber ich bin mittlerweile 57, noch ein paar Jahre und ich kann in Rente gehen. Um bis dahin über die Runden zu kommen, werde ich wahrscheinlich meinen geliebten Old-Timer an einen reichen Sammler oder so verkaufen, immerhin kann ich mit dem jetzt sowieso nichts mehr anfangen.'
+        name: 'Johann Klein , 32 J.',
+        text: 'Ja, was soll ich sagen, ich finde es scheiße! Ich bin seit her arbeitslos. Vor kurzem war ich noch Fernkraftfahrer. Und ich vermisse es, das war ein toller Job, zumindest für mich. Es wirkt langweilig, aber ich habe viel von Deutschland und auch ein paar andere Länder kennenlernen dürfen. Aber das war einmal. Die Vollautomatisierung und das autonome Fahren haben dem ein Strich durch die Rechnung gemacht. Ich bin fristlos gekündigt worden, dabei hatte ich erst zweieinhalb Jahre vorher meine Fahrerlaubnis erworben, man war ich stolz. Aber ich hatte nicht das Glück in einer wirklichen Firma zu arbeiten, ich war Subunternehmer. Tja, und die interessiert ja keinen, vor allem nicht die Bundesregierung und so hatte ich dann den Ärger, bis heute. Ich habe immer noch nichts Gescheites gefunden und halte mich mit Gelegenheitsjobs über Wasser. Meistens arbeite ich schwarz, aber sagen Sie das bitte keinem. Ich wollte eigentlich nochmal eine Ausbildung machen, aber, und das können Sie sich denken, da bin ich nicht der Einzige, der auf die Idee gekommen ist, oder kommen musste! Es ist verdammt schwer geworden, ich verfluche das autonome Fahren ... '
     },
     {
         color: '#c5aa00',
@@ -69,34 +69,34 @@ export default [
         name: 'Dr. Prof. Schreuer, 43',
         text: 'Autonomes Fahren? Wie ich das finde? Großartig, was für eine Frage? Ich meine, ich habe beruflich damit zu tun. Ich arbeite an der Goethe Universität als Professor der IT und forsche zu dem Thema. Man könnte sage, ich habe es mit zu verantworten. Und schauen Sie doch mal, wie positiv sich alles gewandelt hat. Das hätte man 2020 noch nicht geahnt! Eigentlich unfassbar.  Allein die vielen Vorteile für Familien: Meine Frau und ich wüssten gar nicht mehr, wie wir zurechtkommen sollten, ohne autonomes Fahren. Wie sollten wir sonst unseren Beruf und das Familienmanagement vereinbaren? Die Kinder werden voll automatisiert zur Schule, zum Sport, zum Klavierunterricht, zu Freunden und den Großeltern gebracht. Und gleichzeitig werde ich auf die Sekunde genau zu meinen Terminen abgeholt, egal wo ich mich gerade befinde. Beim Fahren kann ich dann noch meine Mails checken oder mich auf anstehende Vorträge vorbereiten, ohne mich sorgen zu müssen, einen Unfall zu erleiden. Noch so ein Punkt, die gibt es ja gar nicht mehr! Klar gibt es hier und da mal eine technische Schwierigkeit, aber das ist gar kein wirkliches Problem. Ich selbst kann viel selbst beheben, und wenn ich mal vor einem Rätsel stehe oder keine Zeit habe, dann rufe ich den Techniker, der sich zuverlässig darum kümmert. Also, wie Sie sehen, für mich ist das autonome Fahrzeug ein neuer Meilenstein der Menschheitsgeschichte und gleichzeitig ist es erst der Anfang einer vollautomatisierten Welt! Ich sage immer: „Es LEBE die Technik!“ '
     },
-    {
-        color: '#454545',
-        id: '6',
-        alt: 'Bild von Angelo Rilassato, 56',
-        path: 'img/angelo.jpg',
-        video: false,
-        video_path: '',
-        audio: false,
-        audio_path: '',
-        x: '-132px',
-        y: '0px',
-        name: 'Angelo Rilassato, 56',
-        text: 'klar, in den letzten zehn Jahren hat sich viel verändert. Das habe ich persönlich hautnah miterleben dürfen. Ich arbeite bei Volkswagen als KFZ-Meister und das schon ein paar Jahrzehnte. Da können Sie sich sicher vorstellen, dass die Entwicklung extrem war und ist. Ich hatte die gute Position, bei einem großen und führenden Konzern angestellt zu sein und habe jegliche Unterstützung erhalten. Ist ja klar, VW ist sehr daran interessiert gewesen ihre Techniker und Mechatroniker auf dem modernsten Stand zu halten, denn es verändert sich ja alles so schnell. Also bin ich VW dankbar, dass Umschulungen und Seminare großzügig finanziert und angeboten wurden. Ich glaub die Bundesregierung hat das mit unterstützt, aber das weiß ich nicht genau, wie das gelaufen ist. Ich weiß nur, dass mein Cousin mit seinen 62 Jahren ganz schön Pech hatte. Den haben die Vollautomatisierung und das autonome Fahren ziemlich hart getroffen. Der ist auch KFZ-Mechatroniker, aber war nur als Geselle bei einer kleinen privaten Autowerkstatt angestellt gewesen. Der war auf einmal nur seinen Job los. Die Werkstatt konnte ihm und seinen Kollegen keine Schulungen bezahlen. Nur der Chef hat sich selbst weiterbilden können, für den Rest seiner Firma war kein Budget mehr da. Und er selbst hat naiv daran geglaubt, dass schon irgendwie was kommen wird, so wie es bei ihm immer lief. Nur diesmal hat er sich verschätzt, er ist immer noch arbeitslos, bzw. verdient sich ein paar Euro im Callcenter. Und wenn er Geld braucht, weiß er, kann er auch mich immer fragen. Also anders als mein Cousin, bin ich zufrieden mit der neuen Art der Mobilität. Einzig und allein wirklich nerven tut die Tatsache, dass ich meine Perle nur noch auf privaten Strecken fahren darf. Mit dem Verbot des hybriden Verkehrs muss ich mein 900 PS Engel gar dorthin transportieren lassen. Und dann kann ich mit dem Schmuckstück nur noch im Kreis fahren. Naja, besser als gar nichts und die Zeit dafür muss man ja auch noch haben.'
-    },
     // {
-    //     color: '#4c4a4d',
-    //     id: '7',
-    //     alt: 'Bild von Katinka Zack 25 J.',
-    //     path: 'img/katinka.jpg',
+    //     color: '#454545',
+    //     id: '6',
+    //     alt: 'Bild von Angelo Rilassato, 56',
+    //     path: 'img/angelo.jpg',
     //     video: false,
     //     video_path: '',
     //     audio: false,
     //     audio_path: '',
-    //     x: '-60px',
+    //     x: '-132px',
     //     y: '0px',
-    //     name: 'Katinka Zack 25 J.',
-    //     text: 'Für mich ist das autonome Fahrzeug großartig, insbesondere da ich auf einen Rollstuhl angewiesen bin. Dadurch, dass bei der Planung des Fahrzeugs von vornerein an meine Community gedacht wurde, kann ich es problemlos nutzen und habe viele neue Freiheiten gewinnen können, die mir früher verwehrt blieben. Ich komme nahezu barrierefrei von einem Ort zum anderen, ohne auf fremde Hilfe angewiesen zu sein. Wirklich ein Mehrwert in meinem Leben! Allerdings kommt nicht jeder mit dem Handling der neuen Technik klar. Ein paar meiner Mitbewohner*innen aus dem betreuten Wohnen haben Schwierigkeiten. Ich habe das Glück, dass ich allgemein interessiert an Technik bin und mich schon immer damit auseinandergesetzt habe. Aber eine meiner Mitbewohnerinnen mit kognitiven Schwierigkeiten, kann das Wenigste tatsächlich allein bewältigen. Vor allem die bürokratischen Prozesse machen es sehr schwer. Für jemanden, der nicht lesen oder schreiben kann, ist allein das Ausfüllen eines Antrags eine große Hürde. Und Anträge braucht man unzählige, bis man eine angemessene Unterstützung oder finanzielle Hilfe erhält. Und selbst mit dieser, sind Kosten teilweise noch schwer zu bewältigen! Einige Menschen sind nicht erwerbstätig und das nicht, weil sie nicht wollen, sondern weil sie nicht können. In Behindertenwerkstätten gibt es dann zwar Arbeit, aber für einen Gehalt unter dem Mindestlohn…  Woher sollen diese Menschen das nötige Geld bekommen? Ich finde es einfach schade zu sehen, dass es Menschen, für die das autonome Fahrzeug das Mittel zur Unabhängigkeit und zur Teilhabe am gesellschaftlichen Leben gewesen wäre, mit am schwersten haben überhaupt erst Zugang dazu zu bekommen…An dieser Stelle gibt es auf jeden Fall noch Handlungs- und Verbesserungsbedarf. Aber wir als Community helfen uns gegenseitig. So haben wir schon vieles geschafft. Also Kopf hoch und Brust raus, schönen Tag.'
+    //     name: 'Angelo Rilassato, 56',
+    //     text: 'klar, in den letzten zehn Jahren hat sich viel verändert. Das habe ich persönlich hautnah miterleben dürfen. Ich arbeite bei Volkswagen als KFZ-Meister und das schon ein paar Jahrzehnte. Da können Sie sich sicher vorstellen, dass die Entwicklung extrem war und ist. Ich hatte die gute Position, bei einem großen und führenden Konzern angestellt zu sein und habe jegliche Unterstützung erhalten. Ist ja klar, VW ist sehr daran interessiert gewesen ihre Techniker und Mechatroniker auf dem modernsten Stand zu halten, denn es verändert sich ja alles so schnell. Also bin ich VW dankbar, dass Umschulungen und Seminare großzügig finanziert und angeboten wurden. Ich glaub die Bundesregierung hat das mit unterstützt, aber das weiß ich nicht genau, wie das gelaufen ist. Ich weiß nur, dass mein Cousin mit seinen 62 Jahren ganz schön Pech hatte. Den haben die Vollautomatisierung und das autonome Fahren ziemlich hart getroffen. Der ist auch KFZ-Mechatroniker, aber war nur als Geselle bei einer kleinen privaten Autowerkstatt angestellt gewesen. Der war auf einmal nur seinen Job los. Die Werkstatt konnte ihm und seinen Kollegen keine Schulungen bezahlen. Nur der Chef hat sich selbst weiterbilden können, für den Rest seiner Firma war kein Budget mehr da. Und er selbst hat naiv daran geglaubt, dass schon irgendwie was kommen wird, so wie es bei ihm immer lief. Nur diesmal hat er sich verschätzt, er ist immer noch arbeitslos, bzw. verdient sich ein paar Euro im Callcenter. Und wenn er Geld braucht, weiß er, kann er auch mich immer fragen. Also anders als mein Cousin, bin ich zufrieden mit der neuen Art der Mobilität. Einzig und allein wirklich nerven tut die Tatsache, dass ich meine Perle nur noch auf privaten Strecken fahren darf. Mit dem Verbot des hybriden Verkehrs muss ich mein 900 PS Engel gar dorthin transportieren lassen. Und dann kann ich mit dem Schmuckstück nur noch im Kreis fahren. Naja, besser als gar nichts und die Zeit dafür muss man ja auch noch haben.'
     // },
+    {
+        color: '#4c4a4d',
+        id: '7',
+        alt: 'Bild von Katinka Zack 25 J.',
+        path: 'img/katinka.png',
+        video: true,
+        video_path: 'media/katinka_sub.mp4',
+        audio: false,
+        audio_path: '',
+        x: '-20px',
+        y: '0px',
+        name: 'Katinka Zack 25 J.',
+        text: 'Für mich ist das autonome Fahrzeug großartig, insbesondere da ich auf einen Rollstuhl angewiesen bin. Dadurch, dass bei der Planung des Fahrzeugs von vornerein an meine Community gedacht wurde, kann ich es problemlos nutzen und habe viele neue Freiheiten gewinnen können, die mir früher verwehrt blieben. Ich komme nahezu barrierefrei von einem Ort zum anderen, ohne auf fremde Hilfe angewiesen zu sein. Wirklich ein Mehrwert in meinem Leben! Allerdings kommt nicht jeder mit dem Handling der neuen Technik klar. Ein paar meiner Mitbewohner*innen aus dem betreuten Wohnen haben Schwierigkeiten. Ich habe das Glück, dass ich allgemein interessiert an Technik bin und mich schon immer damit auseinandergesetzt habe. Aber eine meiner Mitbewohnerinnen mit kognitiven Schwierigkeiten, kann das Wenigste tatsächlich allein bewältigen. Vor allem die bürokratischen Prozesse machen es sehr schwer. Für jemanden, der nicht lesen oder schreiben kann, ist allein das Ausfüllen eines Antrags eine große Hürde. Und Anträge braucht man unzählige, bis man eine angemessene Unterstützung oder finanzielle Hilfe erhält. Und selbst mit dieser, sind Kosten teilweise noch schwer zu bewältigen! Einige Menschen sind nicht erwerbstätig und das nicht, weil sie nicht wollen, sondern weil sie nicht können. In Behindertenwerkstätten gibt es dann zwar Arbeit, aber für einen Gehalt unter dem Mindestlohn…  Woher sollen diese Menschen das nötige Geld bekommen? Ich finde es einfach schade zu sehen, dass es Menschen, für die das autonome Fahrzeug das Mittel zur Unabhängigkeit und zur Teilhabe am gesellschaftlichen Leben gewesen wäre, mit am schwersten haben überhaupt erst Zugang dazu zu bekommen…An dieser Stelle gibt es auf jeden Fall noch Handlungs- und Verbesserungsbedarf. Aber wir als Community helfen uns gegenseitig. So haben wir schon vieles geschafft. Also Kopf hoch und Brust raus, schönen Tag.'
+    },
     {
         color: '#775c63',
         id: '8',
@@ -112,18 +112,18 @@ export default [
         text: 'Es gibt sicher viele gute Gründe für das autonome Fahren, allein die CO2-Emissionen sind seither stark zurück gegangen, das ist toll. Und um ehrlich zu sein, will ich es selbst nicht mehr missen. Aber ich bin mir jedoch nicht sicher, wie gut diese Technik der Gesellschaft tatsächlich tut. Ich bin noch jung und in diese Technik quasi rein geboren, allerdings diskutiere ich in meinem Soziologiestudium über die langfristigen Folgen des autonomen Fahrens und bin wie viele meiner Kommiliton*innen mittlerweile sehr kritisch! In unserem letzten Seminar haben wir über die „alten Diskussionen“ gesprochen. Die, die vor zehn Jahren diskutiert wurden. Im Jahr 2020 hat man anscheinend wenig bis gar keinen Wert auf die Auswirkungen für die Gesellschaft gelegt. Man hat sich stattdessen an Ethikfragen aufgehängt, die sich damit beschäftigen, wer im Zweifelsfall sterben würde, wenn es zu einem Unfallszenario kommt. Die Politik thematisierte also lieber Autounfälle als die Folgen für die ganze Gesellschaft. Wir können doch deutlich sehen, dass die technischen Veränderungen die Gesellschaft nur weiter spalten. Der Zugang zur neuen Technologie ist nur privilegierten Menschen gestattet. Angeblich kann natürlich jeder mitmachen, aber nicht jeder hat die notwendigen Ressourcen hierfür. Viele Faktoren spielen dabei eine wichtige Rolle. Angefangen bei den kognitiven Fähigkeiten über die Bildung bis hin zur finanziellen Lage. Die neue Technik teilt die Gesellschaft deutlich ein ohne Rücksicht auf Verluste. Dass die Politik hierbei tatenlos zusieht, ist inakzeptabel. Schauen sie sich doch mal die Viertel an, wo zuletzt, noch gar kein autonomes Fahren gewährleistet wurde? Wieso haben diese Viertel keine Priorität? Merkwürdig finden sie? Ich nicht, das war abzusehen. Es geht eben nicht um den Menschen, es geht ums Verkaufen … Deshalb haben wir eine Initiative gegründet, die die Politik dazu auffordert, die Gerechtigkeit und den schichtübergreifenden gesellschaftlichen Wohlstand zu fördern, indem jeder Mensch Zugang zum autonomen Fahrzeug erhält und jedem die Möglichkeit der gesellschaftlichen Teilhabe gewährt wird. Nur so kann das autonome Fahrzeug eine Bereicherung für alle sein und nicht nur für jene, die sowieso schon viel haben.'
     },
     {
-        color: '#454545',
-        id: '9',
-        alt: 'Bild von Johann Klein , 32 J.',
-        path: 'img/klein.png',
-        video: true,
+        color: '#5b3f2f',
+        id: '4',
+        alt: 'Bild von Konrad (57) Fahrlehrer',
+        path: 'img/driver.jpg',
+        video: false,
         video_path: '',
         audio: false,
         audio_path: '',
-        x: '-45px',
+        x: '0px',
         y: '0px',
-        name: 'Johann Klein , 32 J.',
-        text: 'Ja, was soll ich sagen, ich finde es scheiße! Ich bin seit her arbeitslos. Vor kurzem war ich noch Fernkraftfahrer. Und ich vermisse es, das war ein toller Job, zumindest für mich. Es wirkt langweilig, aber ich habe viel von Deutschland und auch ein paar andere Länder kennenlernen dürfen. Aber das war einmal. Die Vollautomatisierung und das autonome Fahren haben dem ein Strich durch die Rechnung gemacht. Ich bin fristlos gekündigt worden, dabei hatte ich erst zweieinhalb Jahre vorher meine Fahrerlaubnis erworben, man war ich stolz. Aber ich hatte nicht das Glück in einer wirklichen Firma zu arbeiten, ich war Subunternehmer. Tja, und die interessiert ja keinen, vor allem nicht die Bundesregierung und so hatte ich dann den Ärger, bis heute. Ich habe immer noch nichts Gescheites gefunden und halte mich mit Gelegenheitsjobs über Wasser. Meistens arbeite ich schwarz, aber sagen Sie das bitte keinem. Ich wollte eigentlich nochmal eine Ausbildung machen, aber, und das können Sie sich denken, da bin ich nicht der Einzige, der auf die Idee gekommen ist, oder kommen musste! Es ist verdammt schwer geworden, ich verfluche das autonome Fahren ... '
+        name: 'Konrad (57) Fahrlehrer',
+        text: '„Durch die Vollautomatisierungspflicht fiel mein Berufszweig zur Gänze weg. Keiner muss sich noch einer Fahrprüfung unterziehen, jetzt da jeder von einer Maschine rumkutschiert wird. Ich verstehe nicht, wie die Menschen einer Maschine eher vertrauen als sich selbst und sich so leicht durch einen Roboter ersetzten lassen. Langfristig gesehen werden wir alle verlernen Auto zu fahren und dann gibt es kein Zurück mehr. Dann kann man auch im Notfall nicht mehr die Kontrolle zurückgewinnen. Ich habe es geliebt Auto zu fahren, deshalb bin ich auch Fahrlehrer geworden. Auto fahren half mir schon immer dabei mein Gehirn zur Ruhe kommen zu lassen, indem ich mich einfach nur auf das Fahren konzentrierte und dabei Sorgen, Probleme oder Fragen meines Alltags vergaß. Mit der Vollautomatisierungpflicht wurde mir nicht nur mein Beruf genommen, sondern auch meine Rückzugsort und meine Leidenschaft! Der Staat hat mir zwar Angebote gemacht mich umzuschulen, aber ich bin mittlerweile 57, noch ein paar Jahre und ich kann in Rente gehen. Um bis dahin über die Runden zu kommen, werde ich wahrscheinlich meinen geliebten Old-Timer an einen reichen Sammler oder so verkaufen, immerhin kann ich mit dem jetzt sowieso nichts mehr anfangen.'
     },
     {
         color: '#003c63',

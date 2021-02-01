@@ -37,7 +37,6 @@
                 Liebe Leser*innen,
                 <br />
                 <br />
-                <br />
                 ihre Meinung ist wieder gefragt. Diesmal zu dem sehr aktuellen Thema:
                 Das elektro-betriebene autonome Fahrzeug. Wie erleben Sie diese neue
                 Technologie, die uns nun schon seit einiger Zeit begleitet? Was hat
@@ -48,10 +47,10 @@
                 <br />
                 <br />
                 <br />
-                Mit freundlichen
+                Mit freundlichen Grüßen
                 <br />
                 <br />
-                Grüßen Ihre Redaktion
+                Ihre Redaktion
             </article>
             <img id="karikatur" src="img/natoll.png" alt="" />
         </div>
@@ -111,7 +110,7 @@
                             style="background-color: black;"
                             on:click={() => (selected = null)}
                         >
-                            <video src="media/klein.mp4" autoplay="true">
+                            <video src={d.video_path} autoplay="true">
                                 <track kind="captions" />
                             </video>
                         </div>
@@ -287,5 +286,7 @@
     #karikatur {
         width: 500px;
         border-radius: 50%;
+        margin: 0;
+        margin-top: 30px;
     }
 </style>

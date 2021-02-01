@@ -13,15 +13,16 @@
             Liebe Leser*innen,
             <br />
             <br />
-            <br />
             unsere nächste Ausgabe wird sich mit dem Thema ‘Urbanes Smart Living’
             beschäftigen und mit der Frage: „Sind Smart Homes die Möglichkeit ein
-            langes Wohnen innerhalb der eigenen vier Wände zu ermöglichen?”. Ihre
-            Meinung dazu ist gefragt. Wohnen Sie vielleicht selbst mit Smart Living
-            und wenn ja, wie kommen Sie mit der Technologie zurecht? Gibt es Vor-
-            und Nachteile? Haben Sie Verbesserungswünsche oder Kritik? Lassen Sie
-            es uns wissen! Wie immer werden wir ihre Antworten lesen, sammeln, auf
-            ihren Wunsch hin anonymisieren und in unserer nächsten Ausgabe, unter
+            langes Wohnen innerhalb der eigenen vier Wände zu ermöglichen?”.
+            <br />
+            <br />
+            Ihre Meinung dazu ist gefragt. Wohnen Sie vielleicht selbst mit Smart
+            Living und wenn ja, wie kommen Sie mit der Technologie zurecht? Gibt
+            es Vor- und Nachteile? Haben Sie Verbesserungswünsche oder Kritik? Lassen
+            Sie es uns wissen! Wie immer werden wir ihre Antworten lesen, sammeln,
+            auf ihren Wunsch hin anonymisieren und in unserer nächsten Ausgabe, unter
             der Rubrik Leser*innenbriefe präsentieren.
             <br />
             <br />
