@@ -74,9 +74,13 @@
                     Daten dann die Werte von vergleichbaren menschlichen Fahren
                     unterbot, wurde dann die Vollautomatisierungspflicht
                     eingeführt. Die zu unterbietenden Werte waren: die
-                    Unfallrate (0.003), Unfälle mit Verletzungen (0.00077) und
-                    Unfälle mit Toten (0.00001), jeweils bei 1000 gefahrenen
-                    Kilometern.</span
+                    <span style="color:orange;">Unfallrate (0.003)</span>,
+                    <span style="color:brown;"
+                        >Unfälle mit Verletzungen (0.00077)</span
+                    >
+                    und
+                    <span style="color:red;">Unfälle mit Toten (0.00001)</span>,
+                    jeweils bei 1000 gefahrenen Kilometern.</span
                 >
             </p>
         </div>

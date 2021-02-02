@@ -1,10 +1,19 @@
+<script>
+    import { bullshit } from "./stores.js";
+    let show_bullshit = false;
+
+    const unsubscribe = bullshit.subscribe((value) => {
+        show_bullshit = value;
+    });
+</script>
+
 <div class="headline">
     <h2>
         Autonomes Fahren: Sind autonome Fahrzeuge ein exklusives Zukunftsmodell?
     </h2>
     <div class="container">
         <div class="column">
-            <p class="block">
+            <p>
                 In unserer zweiten diesjährigen Ausgabe soll es um die bis jetzt
                 mitunter größte Errungenschaft des 21. Jahrhunderts gehen: Das
                 autonome Fahrzeug. Noch vor 10 Jahren war der Verkehr in
@@ -19,50 +28,61 @@
                 brauchte es eine Sondererlaubnis.
             </p>
             <p>
-                Bis zum Jahr 2030 wandelte sich, mit dem autonomen Fahrzeug der
-                Stufe fünf, die Rolle der Menschen als Fahrer*innen zu
-                Passagier*innen ohne Fahraufgabe.
+                <span class={show_bullshit ? "bullshit" : ""}>
+                    Bis zum Jahr 2030 wandelte sich, mit dem autonomen Fahrzeug
+                    der Stufe fünf, die Rolle der Menschen als Fahrer*innen zu
+                    Passagier*innen ohne Fahraufgabe.</span
+                >
             </p>
         </div>
         <div class="column">
             <p>
-                Der Individualbesitz wurde abgeschafft, sodass sich verschiedene
-                Personengruppen, wie Familien oder benachbarte Wohneinheiten ein
-                autonomes Fahrzeug teilen. Des Weiteren herrscht nun eine
-                Vollautomatisierungspflicht. Demnach sind keine
-                nichtautomatisierten Fahrzeuge auf den Straßen erlaubt, um eine
-                zentralvernetzte Infrastruktur, die alle
-                Verkehrsteilnehmer*innen miteinander kommunizieren lässt, zu
-                ermöglichen. Der öffentliche Nahverkehr wurde auf autonome
-                Bahnen und Reisebusse reduziert, die nur noch weite Strecken
-                anfahren.
+                <span class={show_bullshit ? "bullshit" : ""}>
+                    Der Individualbesitz wurde abgeschafft, sodass sich
+                    verschiedene Personengruppen, wie Familien oder benachbarte
+                    Wohneinheiten ein autonomes Fahrzeug teilen. Des Weiteren
+                    herrscht nun eine Vollautomatisierungspflicht. Demnach sind
+                    keine nichtautomatisierten Fahrzeuge auf den Straßen
+                    erlaubt, um eine zentralvernetzte Infrastruktur, die alle
+                    Verkehrsteilnehmer*innen miteinander kommunizieren lässt, zu
+                    ermöglichen. Der öffentliche Nahverkehr wurde auf autonome
+                    Bahnen und Reisebusse reduziert, die nur noch weite Strecken
+                    anfahren.</span
+                >
             </p>
             <p>
-                Dadurch hat sich viel verändert. Unter anderem sind mehr
-                Menschen von der Stadt zurück aufs Land gezogen, da der
-                ländliche Lebensraum, aufgrund der gestiegenen Mobilität an
-                Attraktivität gewonnen hat. Unsere CO<sub>2</sub>-Emissionen
-                konnten durch die Elektromobilität stark
+                <span class={show_bullshit ? "bullshit" : ""}>
+                    Dadurch hat sich viel verändert. Unter anderem sind mehr
+                    Menschen von der Stadt zurück aufs Land gezogen, da der
+                    ländliche Lebensraum, aufgrund der gestiegenen Mobilität an
+                    Attraktivität gewonnen hat. Unsere CO<sub>2</sub>-Emissionen
+                    konnten durch die Elektromobilität stark</span
+                >
             </p>
         </div>
         <div class="column">
             <p>
-                gesenkt werden. Durch die vernetzte Infrastruktur gibt es keine
-                Staus mehr und der Verkehr ist sicherer geworden, sodass auch
-                die Polizei diesbezüglich entlastet werden konnte.
+                <span class={show_bullshit ? "bullshit" : ""}>
+                    gesenkt werden. Durch die vernetzte Infrastruktur gibt es
+                    keine Staus mehr und der Verkehr ist sicherer geworden,
+                    sodass auch die Polizei diesbezüglich entlastet werden
+                    konnte.</span
+                >
             </p>
             <p>
-                Außerdem hat sich der Arbeitsmarkt umgeschichtet: Manche
-                Arbeitsplätze, wie die der Fahrlehrer*innen, Busfahrer*innen
-                oder Taxifahrer*innen sind verloren gegangen, andere
-                Arbeitsplätze haben sich gewandelt, wie die der Auto
-                Mechatroniker*innen oder Automobilhersteller*innen und wieder
-                andere Arbeitsplätze sind neu entstanden, wie die der
-                3D-Druck-Expert*innen oder der Data Stewards. Und das sind nur
-                ein paar der Auswirkungen des autonomen Fahrens. Wir als
-                Redaktion stellen uns die Frage, wie sich die Gesellschaft mit
-                dieser neuen Errungenschaft arrangiert hat und wie exklusiv das
-                Modell des autonomen Fahrzeugs ist.
+                <span class={show_bullshit ? "bullshit" : ""}>
+                    Außerdem hat sich der Arbeitsmarkt umgeschichtet: Manche
+                    Arbeitsplätze, wie die der Fahrlehrer*innen, Busfahrer*innen
+                    oder Taxifahrer*innen sind verloren gegangen, andere
+                    Arbeitsplätze haben sich gewandelt, wie die der Auto
+                    Mechatroniker*innen oder Automobilhersteller*innen und
+                    wieder andere Arbeitsplätze sind neu entstanden, wie die der
+                    3D-Druck-Expert*innen oder der Data Stewards. Und das sind
+                    nur ein paar der Auswirkungen des autonomen Fahrens. Wir als
+                    Redaktion stellen uns die Frage, wie sich die Gesellschaft
+                    mit dieser neuen Errungenschaft arrangiert hat und wie
+                    exklusiv das Modell des autonomen Fahrzeugs ist.</span
+                >
             </p>
         </div>
     </div>

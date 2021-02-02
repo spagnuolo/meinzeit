@@ -56,16 +56,17 @@
         <h2>Elektromobilität Heute</h2>
         <p>
             <span class={show_bullshit ? "bullshit" : ""}>
-                Wie man schon vor Jahrzehnten festgestellt hat, waren
-                CO2-Emissionen einer der großen Gefahren der Menschheit. Zum
-                Glück konnten wir als Gesellschaft diese Gefahr abwenden. 2020
-                waren die Werte noch bedrohlich hoch und haben uns vor viele
-                Fragen gestellt. Nun aber im Jahr 2030 können wir zuversichtlich
-                in die Zukunft schauen. Wir haben es geschafft. Die
-                CO2-Emissionen bewegen sich heute in einem kontrollierten
-                Rahmen, zumindest im Verkehrssektor. Der Elektromobilität sei
-                Dank! Wir konnten mit Innovation und Wille die
-                CO2-Emissionswerte gar um 75 % reduzieren und so das von 2020
+                Wie man schon vor Jahrzehnten festgestellt hat, waren CO<sub
+                    >2</sub
+                >-Emissionen einer der großen Gefahren der Menschheit. Zum Glück
+                konnten wir als Gesellschaft diese Gefahr abwenden. 2020 waren
+                die Werte noch bedrohlich hoch und haben uns vor viele Fragen
+                gestellt. Nun aber im Jahr 2030 können wir zuversichtlich in die
+                Zukunft schauen. Wir haben es geschafft. Die CO<sub>2</sub
+                >-Emissionen bewegen sich heute in einem kontrollierten Rahmen,
+                zumindest im Verkehrssektor. Der Elektromobilität sei Dank! Wir
+                konnten mit Innovation und Wille die CO<sub>2</sub
+                >-Emissionswerte gar um 75 % reduzieren und so das von 2020
                 gesteckte Ziel um 33 beziehungsweise 35 Prozent übertreffen. Ein
                 Riesenerfolg. Und schön zu sehen, dass Politik, Wissenschaft und
                 die Gesellschaft zusammen an einem Strang ziehen können. Selbst

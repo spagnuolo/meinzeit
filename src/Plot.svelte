@@ -90,9 +90,16 @@
         <path class="path-line" d={path3} style="stroke: green;" />
         <path class="path-line" d={path4} style="stroke: blue;" />
         <path class="path-line" d={path5} style="stroke: purple;" />
-        <path class="path-line" d={path6} style="stroke: yellow;" />
+        <path class="path-line" d={path6} style="stroke: fuchsia;" />
         <path class="path-line" d={path7} style="stroke: black;" />
     </svg>
+    <p>
+        <span style="color:green;">Google</span>
+        <span style="color:blue;">Uber</span>
+        <span style="color:purple;">GM</span>
+        <span style="color:fuchsia;">VW</span>
+        <span style="color:black;">apple</span>
+    </p>
 </div>
 
 <style>
@@ -149,5 +156,12 @@
 
     .path-area {
         fill: rgba(0, 100, 100, 0.2);
+    }
+
+    p {
+        font-weight: bold;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
     }
 </style>
