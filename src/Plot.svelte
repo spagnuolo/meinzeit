@@ -51,6 +51,11 @@
 </script>
 
 <div class="chart" bind:clientWidth={width} bind:clientHeight={height}>
+    <h3>
+        <a href="data/2019AutonomousVehicleDisengagementReports.csv"
+            >Abschaltungen des Autnomenmodus pro 1000 km</a
+        >
+    </h3>
     <svg>
         <!-- y axis -->
         <g class="axis y-axis" transform="translate(0, {padding.top})">
@@ -109,6 +114,17 @@
         max-height: 300px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    a,
+    a:hover,
+    a:active {
+        color: rgb(37, 35, 35);
+    }
+
+    h3 {
+        margin: 0;
+        text-align: center;
     }
 
     svg {

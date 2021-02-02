@@ -15,7 +15,7 @@
 	import TechnikHead from "./TechnikHead.svelte";
 	import Title from "./Title.svelte";
 
-	let img_focus = 1;
+	let img_focus = 0;
 	let fadeInTime = 0;
 </script>
 

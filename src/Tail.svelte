@@ -6,7 +6,7 @@
 <hr />
 <div class="container">
     <div>
-        show bullshit
+        Makiere Fiktion
         <input
             type="checkbox"
             bind:checked={show}
