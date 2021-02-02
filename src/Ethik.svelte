@@ -50,24 +50,22 @@
             anderen stark kritisierte, Vollautomatisierungspflicht für Fahrzeuge
             eingeführt.</span
         >
-        Durch eine Beschränkung auf die Nutzung von autonom-fahrenden Fahrzeugen
-        sollen von Menschen verursachte Fahrzeugunfälle im Straßenverkehr vermieden
-        werden.
+        Durch eine Beschränkung auf die Nutzung von autonomfahrenden Fahrzeugen sollen
+        von Menschen verursachte Fahrzeugunfälle im Straßenverkehr vermieden werden.
         <span class={show_bullshit ? "bullshit" : ""}
             >Umso aktueller sind im Jahr 2030 daher die Überlegungen der
             Ethik-Kommission von 2017 über die Folgen einer solchen
             Vollautomatisierungspflicht:</span
         >
         Laut der damaligen Ethik-Kommission basiere autonomes Fahren der Stufe 5
-        auf der Annahme einer Überlegenheit der Technik gegenüber menschlichen
-        Entscheidungen und ihrer Fehlbarkeit. Jedoch, so merkte die
-        Ethik-Kommission an, bestehe in einer Demokratie für alle Menschen
-        Handlungsfreiheit. Dies beziehe sich auch auf die bewusste Entscheidung
-        eines Menschen, welche technischen Möglichkeiten genutzt werden sollen
-        und welche nicht. Die Ethik-Kommission gab weiterhin zu bedenken: „Eine
-        verpflichtende Einführung solcher Systeme würde den Menschen im Rahmen
-        seiner Entfaltungsmöglichkeiten […] stark einschränken“. Daher könne die
-        verpflichtende Nutzung autonomer Systeme nicht über eine höhere
+        auf der Annahme einer Überlegenheit der Technik gegenüber menschlichen Entscheidungen
+        und ihrer Fehlbarkeit. Jedoch, so merkte die Ethik-Kommission an, bestehe
+        in einer Demokratie für alle Menschen Handlungsfreiheit. Dies beziehe sich
+        auch auf die bewusste Entscheidung eines Menschen, welche technischen Möglichkeiten
+        genutzt werden sollen und welche nicht. Die Ethik-Kommission gab weiterhin
+        zu bedenken: „Eine verpflichtende Einführung solcher Systeme würde den Menschen
+        im Rahmen seiner Entfaltungsmöglichkeiten […] stark einschränken“. Daher
+        könne die verpflichtende Nutzung autonomer Systeme nicht über eine höhere
         Sicherheit vollautomatisierter Systeme begründet werden.
         <span class={show_bullshit ? "bullshit" : ""}
             >Dies wirft im Jahr 2030 die Frage auf, ob wir mit der
@@ -75,12 +73,11 @@
             Freiheit für einen inkludierenden technischen Fortschritt geopfert
             haben? Ist dies dann noch inklusiv?</span
         >
-        Im Jahr 2017 warnte die Ethik-Kommission auch vor den Folgen autonomen
-        Fahrens. Denn, wird autonomes Fahren als Teil einer Entwicklung
-        betrachtet, in der die menschliche Arbeitskraft durch Roboter ersetzt
-        wird, so ist diese technische Entwicklung irreversible: Ohne
-        Fahrschulausbildung fehlt den Menschen der Erwerb von
-        ständig-zu-trainierenden Kenntnissen im Autofahren.
+        Im Jahr 2017 warnte die Ethik-Kommission auch vor den Folgen autonomen Fahrens.
+        Denn, wird autonomes Fahren als Teil einer Entwicklung betrachtet, in der
+        die menschliche Arbeitskraft durch Roboter ersetzt wird, so ist diese technische
+        Entwicklung irreversible: Ohne Fahrschulausbildung fehlt den Menschen der
+        Erwerb von ständig-zu-trainierenden Kenntnissen im Autofahren.
         <span class={show_bullshit ? "bullshit" : ""}
             >Eine Entwicklung, die wir heutzutage beobachten können, liebe
             Leser!</span

@@ -11,7 +11,7 @@
 <div class="container">
     <div>
         <h2>Recht und Sicherheit</h2>
-        <p>
+        <p class="block">
             Ein Jahr nach der DARPA Challenge, bei der klar wurde, dass
             autonomes Fahren möglich ist, kam die erste Gesetzesänderung, die
             das autonome Fahren ermöglicht. Die Europäischen Union
@@ -54,8 +54,8 @@
                 Fahrsituation muss geregelt sein wer zuständig ist: Mensch oder
                 Maschine.
                 <span class={show_bullshit ? "bullshit" : ""}>
-                    In den Letzen 10 Jahren kamen dann die für das autonome Auto
-                    entscheidenden Maßnahmen. Die Europäische Union
+                    In den vergangenen 10 Jahren kamen dann die für das autonome
+                    Auto entscheidenden Maßnahmen. Die Europäische Union
                     standardisierte ein Prüfverfahren für die Erteilung einer
                     Betriebserlaubnis für Kraftfahrzeuge mit</span
                 >
@@ -68,15 +68,15 @@
                     Kraftfahrzeugen vor. Hersteller von autonomen Fahrzeugen
                     mussten ab dann kritische Daten erfassen und
                     veröffentlichen. Die Daten beinhalten den genauen Standort
-                    mit einem Zeitpunkt und Events, die jedes Mal stattfinden,
-                    wenn das Auto auf öffentlichen Straßen von Autonom- zum
-                    Manuellen Modus aus sicherheitsrelevantem Grunde wechselt.
-                    Als diese Daten dann die Werte von vergleichbaren
-                    Menschlichen Fahren unterbot wurde dann
-                    Vollautomatiesierungspflicht eingeführt. Die zu
-                    unterbietenden Werte waren: die Unfallrate (0.003), Unfälle
-                    mit Verletzungen (0.00077) und Unfälle mit Toten (0.00001),
-                    jeweils bei 1000 gefahrenen Kilometern.</span
+                    mit einem Zeitpunkt und Events, die stattfinden, wenn das
+                    Auto auf öffentlichen Straßen vom Autonom- zum Manuellen
+                    Modus aus sicherheitsrelevantem Grunde wechselt. Als diese
+                    Daten dann die Werte von vergleichbaren Menschlichen Fahren
+                    unterbot, wurde dann die Vollautomatiesierungspflicht
+                    eingeführt. Die zu unterbietenden Werte waren: die
+                    Unfallrate (0.003), Unfälle mit Verletzungen (0.00077) und
+                    Unfälle mit Toten (0.00001), jeweils bei 1000 gefahrenen
+                    Kilometern.</span
                 >
             </p>
         </div>
@@ -121,5 +121,9 @@
 
     p {
         text-align: justify;
+    }
+
+    .block {
+        text-align-last: justify;
     }
 </style>

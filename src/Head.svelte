@@ -8,7 +8,7 @@
                 In unserer zweiten diesjährigen Ausgabe soll es um die bis jetzt
                 mitunter größte Errungenschaft des 21. Jahrhunderts gehen: Das
                 autonome Fahrzeug. Noch vor 10 Jahren war der Verkehr in
-                Deutschland geprägt von umweltschädlichen Verbrennungs-motoren,
+                Deutschland geprägt von umweltschädlichen Verbrennungsmotoren,
                 einer unvernetzten Infrastruktur und Individualbesitz. Anfang
                 des Jahres 2020 waren noch insgesamt 58,2 Millionen
                 Kraftfahrzeuge in Deutschland zugelassen und die
@@ -27,11 +27,11 @@
         <div class="column">
             <p>
                 Der Individualbesitz wurde abgeschafft, sodass sich verschiedene
-                Personen-gruppen, wie Familien oder benachbarte Wohneinheiten
-                ein autonomes Fahrzeug teilen. Des Weiteren herrscht nun eine
+                Personengruppen, wie Familien oder benachbarte Wohneinheiten ein
+                autonomes Fahrzeug teilen. Des Weiteren herrscht nun eine
                 Vollautomatisierungspflicht. Demnach sind keine
-                nicht-automatisierten Fahr-zeuge auf den Straßen erlaubt, um
-                eine zentralvernetzte Infrastruktur, die alle
+                nichtautomatisierten Fahrzeuge auf den Straßen erlaubt, um eine
+                zentralvernetzte Infrastruktur, die alle
                 Verkehrsteilnehmer*innen miteinander kommunizieren lässt, zu
                 ermöglichen. Der öffentliche Nahverkehr wurde auf autonome
                 Bahnen und Reisebusse reduziert, die nur noch weite Strecken
@@ -53,10 +53,10 @@
             </p>
             <p>
                 Außerdem hat sich der Arbeitsmarkt umgeschichtet: Manche
-                Arbeitsplätze, wie die der Fahrlehrer*innen, Bus-fahrer*innen
+                Arbeitsplätze, wie die der Fahrlehrer*innen, Busfahrer*innen
                 oder Taxifahrer*innen sind verloren gegangen, andere
                 Arbeitsplätze haben sich gewandelt, wie die der Auto
-                Mechatroniker*innen oder Automobil-hersteller*innen und wieder
+                Mechatroniker*innen oder Automobilhersteller*innen und wieder
                 andere Arbeitsplätze sind neu entstanden, wie die der
                 3D-Druck-Expert*innen oder der Data Stewards. Und das sind nur
                 ein paar der Auswirkungen des autonomen Fahrens. Wir als

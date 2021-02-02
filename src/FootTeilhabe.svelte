@@ -20,7 +20,7 @@
                 jede*r konnte diese Fahrerlaubnis bekommen. Kinder und
                 Jugendliche konnten grundsätzlich erst ab dem Alter von 17
                 Jahren einen Führerschein erwerben und erst ab 18 Jahren ohne
-                Begleitung fahren. Ebenso ausge-schlossen waren Menschen mit
+                Begleitung fahren. Ebenso ausgeschlossen waren Menschen mit
                 bestimmten körperlichen oder geistigen Behinderungen. Darunter
                 fiel beispielsweise eine hochgradige Schwerhörigkeit, mangelndes
                 Sehvermögen, Krankheiten des Nervensystems oder bestimmte Herz-
@@ -30,20 +30,20 @@
                 werden.
             </p>
             <p class="block">
-                Für ältere Menschen wurde die Verkehrs-teilnahme durch den
+                Für ältere Menschen wurde die Verkehrsteilnahme durch den
                 schleichenden Prozess körperlicher Einbußen stark erschwert.
-                Beweglichkeit und Wahr-nehmung gehörten nämlich zu den zentralen
+                Beweglichkeit und Wahrnehmung gehörten nämlich zu den zentralen
                 Voraussetzungen für eine sichere Teilnahme am Verkehr. Außerdem
-                Reaktions-, Seh-, und Hörvermögen, Auf-merksamkeit, handelte man
+                Reaktions-, Seh-, und Hörvermögen, Aufmerksamkeit, handelte man
                 ordnungswidrig, wenn man mit mehr als 0,5 Promille am
                 Straßenverkehr teilnahm. Menschen mit Verdacht auf
-                Alkohol-abhängigkeit oder Alkoholmissbrauch mussten sich einem
+                Alkoholabhängigkeit oder Alkoholmissbrauch mussten sich einem
                 ärztlichen oder
             </p>
         </div>
         <div class="column">
             <p>
-                einem medizinisch-psychologischem Gutachten unterziehen und
+                einem medizinischpsychologischem Gutachten unterziehen und
                 bekamen beim negativen Ausfall des Gutachtens ihre Fahrerlaubnis
                 entzogen oder verweigert. Auch Menschen in Abhängigkeit zu
                 Betäubungs- und Arzneimitteln mussten vorerst ihre Eignung für
@@ -62,7 +62,7 @@
             <p>
                 Mit der wachsenden Aussicht auf das autonome Fahrzeug und die
                 Vollautomatisierungspflicht, wuchs 2020 auch die Sorge um
-                Arbeitsfelder und Beschäftigte, die vom nicht-autonomen Fahrzeug
+                Arbeitsfelder und Beschäftigte, die vom nichtautonomen Fahrzeug
                 abhängig waren. Die Berufe der Taxifahrer*innen,
                 Lastkraftwagenfahrer*innen, Bus- und Bahnfahrer*innen sind heute
                 überflüssig, denn den Personen- und Warentransport übernehmen

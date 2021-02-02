@@ -46,13 +46,13 @@
                     <br />
                     <br />
                     ihre Meinung ist wieder gefragt. Diesmal zu dem sehr aktuellen
-                    Thema: Das elektro-betriebene autonome Fahrzeug. Wie erleben
-                    Sie diese neue Technologie, die uns nun schon seit einiger Zeit
-                    begleitet? Was hat sich für Sie beruflich oder privat verändert,
-                    seit der Vollautomatisierungspflicht und der Abschaffung des
-                    Individualbesitzes? Haben Sie diesbezüglich Bedenken, Ängste
-                    oder Sorgen? Haben Sie überhaupt Zugang zu dieser neuen Technik?
-                    Wir wollen wissen, was Sie beschäftigt!
+                    Thema: Das elektrobetriebene autonome Fahrzeug. Wie erleben Sie
+                    diese neue Technologie, die uns nun schon seit einiger Zeit begleitet?
+                    Was hat sich für Sie beruflich oder privat verändert, seit der
+                    Vollautomatisierungspflicht und der Abschaffung des Individualbesitzes?
+                    Haben Sie diesbezüglich Bedenken, Ängste oder Sorgen? Haben Sie
+                    überhaupt Zugang zu dieser neuen Technik? Wir wollen wissen,
+                    was Sie beschäftigt!
                     <br />
                     <br />
                     <br />

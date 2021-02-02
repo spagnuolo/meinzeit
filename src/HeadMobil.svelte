@@ -63,14 +63,14 @@
                 Fragen gestellt. Nun aber im Jahr 2030 können wir zuversichtlich
                 in die Zukunft schauen. Wir haben es geschafft. Die
                 CO2-Emissionen bewegen sich heute in einem kontrollierten
-                Rahmen, zumindest im Verkehrssektor. Die Elektromobilität sei
+                Rahmen, zumindest im Verkehrssektor. Der Elektromobilität sei
                 Dank! Wir konnten mit Innovation und Wille die
                 CO2-Emissionswerte gar um 75 % reduzieren und so das von 2020
                 gesteckte Ziel um 33 beziehungsweise 35 Prozent übertreffen. Ein
-                Riesenerfolg. Und schön zusehen, dass Politik, Wissenschaft und
+                Riesenerfolg. Und schön zu sehen, dass Politik, Wissenschaft und
                 die Gesellschaft zusammen an einem Strang ziehen können. Selbst
                 das zuletzt als größte Herausforderung geltende Problem der
-                Energieerwirtschaftung, als auch das Speichern der dieser in
+                Energieerwirtschaftung, als auch das Speichern dieser in
                 Batterien konnte gelöst werden. Somit Fahren auf deutschen
                 Straßen nur noch zu 100% elektrisch betriebene Fahrzeuge und ca.
                 75% der Energie wird aus erneuerbaren Energiequellen bezogen.

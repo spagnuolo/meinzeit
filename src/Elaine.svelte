@@ -27,21 +27,25 @@
         </p>
         <p>
             Jeden Tag sterben Menschen bei Autounfällen. Wir haben uns daran
-            gewöhnt, das zu rationalisieren: "Sie wurden von einem betrunkenen
-            Fahrer angefahren", "Sie schrieb eine SMS", "Sie haben die Ampel
-            übersehen" usw. Dies sind "normale" Gründe für schlimme Unfälle und
-            wir können sie nicht nur rationalisieren, sondern es auch so zu
-            rationalisieren, wie es uns selbst nicht passieren würde: "Ich fahre
-            nicht betrunken", "Ich schreibe nicht [viel], während ich fahre",
-            "Ich passe auf". Aber diese Algorithmen werden nicht so versagen.
-            Jeder Unfall wird einzigartig und seltsam und beängstigend sein. Es
-            würde uns nicht wundern, wenn jemand irgendwann ein extremes Outfit
-            trägt und das autonome Auto denkt, dass die Person ein Teil der
-            Straße ist und versucht, die Person explizit zu überfahren. Oder
-            wenn das Auto plötzlich entscheidet, dass die Straße in einem 90
-            Grad Winkel verläuft und von einer Brücke fährt. Oder dass die
-            Spritzer aus einer Pfütze vorne tatsächlich ein entgegenkommendes
-            Auto ist und in Passanten ausweichen muss.
+            gewöhnt, das zu rationalisieren: <i
+                >"Sie wurden von einem betrunkenen Fahrer angefahren"</i
+            >, <i>"Sie schrieb eine SMS"</i>,
+            <i>"Sie haben die Ampel übersehen"</i>
+            usw. Dies sind "normale" Gründe für schlimme Unfälle und wir können sie
+            nicht nur rationalisieren, sondern diese Ünfälle auch so zu rationalisieren,
+            wie es uns selbst nicht passieren würde:
+            <i>"Ich fahre nicht betrunken"</i>,
+            <i>"Ich schreibe nicht [viel], während ich fahre"</i>,
+            <i>"Ich passe auf"</i>. Aber diese Algorithmen werden nicht so
+            versagen. Jeder Unfall wird einzigartig und seltsam und beängstigend
+            sein. Es würde uns nicht wundern, wenn jemand irgendwann ein
+            extremes Outfit trägt und das autonome Auto denkt, dass die Person
+            ein Teil der Straße ist und versucht, die Person explizit zu
+            überfahren. Oder wenn das Auto plötzlich entscheidet, dass die
+            Straße in einem 90 Grad Winkel verläuft und von einer Brücke fährt.
+            Oder dass die Spritzer aus einer Pfütze vom K.I. System als ein
+            entgegenkommendes Auto eingestuft wird und in Passanten ausweichen
+            muss.
         </p>
         <p>
             Es wird immer tragisch, und unvorhersehbar sein. Wir werden also
@@ -108,7 +112,6 @@
 
     p {
         text-align: justify;
-        text-align-last: justify;
         margin: 0;
         margin-bottom: 16px;
     }

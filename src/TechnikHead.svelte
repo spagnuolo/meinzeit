@@ -16,7 +16,7 @@
                 einmal seine rapide Geschwindigkeit.</span
             > Wie war aber der Verlauf der Entwicklung des Autonomen Autos? Im Jahr
             2004 veröffentlichen Frank Levy, ein MIT Professor und Richard J. Murnane,
-            ein Havard Wirtschaftswissenschafts Pro-fessor, das Buch The New Division
+            ein Havard Wirtschaftswissenschafts Professor, das Buch The New Division
             of Labor: How Computers Are Creating The Next Job Market. In diesem Buch
             argumentierten die zwei Autoren noch, dass Autofahrer nicht durch Maschinen
             ersetzt werden könnten, da "es schwer vorstellbar sei die genauen Regeln
@@ -29,9 +29,9 @@
     </div>
     <div class="column">
         <p>
-            Fahrmanöver ausüben wie zum Beispiel einfädeln, parken und
+            Fahrmanöver auszuüben wie zum Beispiel einfädeln, parken und
             überholen. Sechs Teams mit ihren autonomen Fahrzeugen gewannen den
-            Wettbewerb und be-wiesen erstmalig der Welt, dass autonomes Fahren
+            Wettbewerb und bewiesen erstmalig der Welt, dass autonomes Fahren
             <span class={show_bullshit ? "bullshit" : ""}>
                 eine Realität werden kann. Und dann haben die Konzerne das große
                 Geld gerochen. Unternehmen wie VW, Uber, Tesla, Google, und
@@ -41,17 +41,17 @@
         </p>
         <h2>Technische Umsetzung und künstliche Intelligenz</h2>
         <p>
-            Technische Umsetzung und künstliche Intelligenz Autonom ist nicht
-            gleich künstliche Intelligenz. Die ältere Ge-neration der autonomen
-            Fahrzeuge nutzte noch algorithmische Lösungs-ansätze. Das heißt das
-            alle möglichen Handlungen und Entscheidungen vorher fest und manuell
-            einprogrammiert werden mussten.
+            Autonom ist nicht gleich künstliche Intelligenz. Die ältere
+            Generation der autonomen Fahrzeuge nutzte noch algorithmische
+            Lösungsansätze. Das heißt das alle möglichen Handlungen und
+            Entscheidungen vorher fest und manuell einprogrammiert werden
+            mussten.
         </p>
     </div>
     <div class="column">
         <p>
             Um damals autonom zu Fahren arbeiteten Echtzeitsysteme zusammen, die
-            für Lokalisierung, Umgebungs-wahrnehmung, Planung und Steuerung
+            für Lokalisierung, Umgebungswahrnehmung, Planung und Steuerung
             zuständig waren. Ein großes Problem war die Planung und
             Vorgehensweise bei Unklarheit. Eine Maschine mit algorithmischen
             Lösungsansätzen besitzt nur die einprogrammierte tiefe Domänenlogik.
