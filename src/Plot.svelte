@@ -98,7 +98,7 @@
 <style>
     .chart {
         width: 100%;
-        max-width: 550px;
+        max-width: 600px;
         max-height: 300px;
         margin-left: auto;
         margin-right: auto;

@@ -1,3 +1,12 @@
+<script>
+    import { bullshit } from "./stores.js";
+    let show_bullshit = false;
+
+    const unsubscribe = bullshit.subscribe((value) => {
+        show_bullshit = value;
+    });
+</script>
+
 <div class="headline">
     <h1>Rückblick: Autofahren im Jahr 2020</h1>
     <div class="container">
@@ -23,11 +32,11 @@
             <p class="block">
                 Für ältere Menschen wurde die Verkehrs-teilnahme durch den
                 schleichenden Prozess körperlicher Einbußen stark erschwert.
-                Reaktions-, Seh-, und Hörvermögen, Auf-merksamkeit,
                 Beweglichkeit und Wahr-nehmung gehörten nämlich zu den zentralen
                 Voraussetzungen für eine sichere Teilnahme am Verkehr. Außerdem
-                handelte man ordnungswidrig, wenn man mit mehr als 0,5 Promille
-                am Straßenverkehr teilnahm. Menschen mit Verdacht auf
+                Reaktions-, Seh-, und Hörvermögen, Auf-merksamkeit, handelte man
+                ordnungswidrig, wenn man mit mehr als 0,5 Promille am
+                Straßenverkehr teilnahm. Menschen mit Verdacht auf
                 Alkohol-abhängigkeit oder Alkoholmissbrauch mussten sich einem
                 ärztlichen oder
             </p>
@@ -67,24 +76,28 @@
                 Kfz-Mechatroniker*innen haben sich gewandelt und erfordern heute
                 andere Kompetenzen und Fähigkeiten als noch vor 10 Jahren.
             </p>
+
             <p>
-                Es wurde versucht auf die Veränderung der Arbeitswelt, durch die
-                Digitalisierung vorzubereiten, indem ermittelt wurde, welche
-                Kompetenzen an Bedeutung und Wichtigkeit gewinnen würden.
-                Technologieentwickler*innen und zuständige Akteur*innen in
-                Ausbildung und Qualifizierung setzten sich zusammen und trafen
-                Maßnahmen, die Fachkräfte in ihrer Ausbildung auf neue
-                Anforderungen und Technologien vorbereiteten. Für Beschäftigte,
-                deren Berufe zur Gänze wegfielen wurden Angebote zur
-                Neuqualifizierung und Umschulung angeboten, zum Beispiel über
-                Online-Plattformen. Man forschte, wie man Angebote attraktiv
-                gestalten könne, sodass Betroffene unabhängig von Alter,
-                Geschlecht und individuellen Voraussetzungen an diesen
-                teilnehmen und sie erfolgreich beenden können. Heute haben wir
-                an die Technik angepasste Lehrpläne und verschieden
-                eingerichtete Angebote zur Qualifizierung und Umschulung.
-                Personen aus bestimmten Berufsgruppen haben die Möglichkeit für
-                diese staatliche Zuschüsse zu beantragen und zu erhalten.
+                <span class={show_bullshit ? "bullshit" : ""}>
+                    Es wurde versucht auf die Veränderung der Arbeitswelt, durch
+                    die Digitalisierung vorzubereiten, indem ermittelt wurde,
+                    welche Kompetenzen an Bedeutung und Wichtigkeit gewinnen
+                    würden. Technologieentwickler*innen und zuständige
+                    Akteur*innen in Ausbildung und Qualifizierung setzten sich
+                    zusammen und trafen Maßnahmen, die Fachkräfte in ihrer
+                    Ausbildung auf neue Anforderungen und Technologien
+                    vorbereiteten. Für Beschäftigte, deren Berufe zur Gänze
+                    wegfielen wurden Angebote zur Neuqualifizierung und
+                    Umschulung angeboten, zum Beispiel über Online-Plattformen.
+                    Man forschte, wie man Angebote attraktiv gestalten könne,
+                    sodass Betroffene unabhängig von Alter, Geschlecht und
+                    individuellen Voraussetzungen an diesen teilnehmen und sie
+                    erfolgreich beenden können. Heute haben wir an die Technik
+                    angepasste Lehrpläne und verschieden eingerichtete Angebote
+                    zur Qualifizierung und Umschulung. Personen aus bestimmten
+                    Berufsgruppen haben die Möglichkeit für diese staatliche
+                    Zuschüsse zu beantragen und zu erhalten.
+                </span>
             </p>
         </div>
     </div>

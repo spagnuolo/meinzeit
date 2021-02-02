@@ -61,6 +61,11 @@ p {
 	background: rgb(255, 255, 125);
 }
 
+.bullshit {
+	background-color: lightsalmon;
+}
+
+
 audio::-webkit-media-controls-play-button{
 	background-color:green;}
 #controlBar {

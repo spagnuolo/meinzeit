@@ -2,6 +2,13 @@
     import { crossfade, scale } from "svelte/transition";
     import interviews from "./interviews.js";
     import Video from "./Video.svelte";
+    import { bullshit } from "./stores.js";
+
+    let show_bullshit = false;
+
+    const unsubscribe = bullshit.subscribe((value) => {
+        show_bullshit = value;
+    });
 
     const [send, receive] = crossfade({
         duration: 300,
@@ -34,31 +41,35 @@
         <div>
             <h2>Aufruf aus unserer letzten Ausgabe:</h2>
             <article style="width:500px">
-                Liebe Leser*innen,
-                <br />
-                <br />
-                ihre Meinung ist wieder gefragt. Diesmal zu dem sehr aktuellen Thema:
-                Das elektro-betriebene autonome Fahrzeug. Wie erleben Sie diese neue
-                Technologie, die uns nun schon seit einiger Zeit begleitet? Was hat
-                sich für Sie beruflich oder privat verändert, seit der Vollautomatisierungspflicht
-                und der Abschaffung des Individualbesitzes? Haben Sie diesbezüglich
-                Bedenken, Ängste oder Sorgen? Haben Sie überhaupt Zugang zu dieser
-                neuen Technik? Wir wollen wissen, was Sie beschäftigt!
-                <br />
-                <br />
-                <br />
-                Mit freundlichen Grüßen
-                <br />
-                <br />
-                Ihre Redaktion
+                <span class={show_bullshit ? "bullshit" : ""}>
+                    Liebe Leser*innen,
+                    <br />
+                    <br />
+                    ihre Meinung ist wieder gefragt. Diesmal zu dem sehr aktuellen
+                    Thema: Das elektro-betriebene autonome Fahrzeug. Wie erleben
+                    Sie diese neue Technologie, die uns nun schon seit einiger Zeit
+                    begleitet? Was hat sich für Sie beruflich oder privat verändert,
+                    seit der Vollautomatisierungspflicht und der Abschaffung des
+                    Individualbesitzes? Haben Sie diesbezüglich Bedenken, Ängste
+                    oder Sorgen? Haben Sie überhaupt Zugang zu dieser neuen Technik?
+                    Wir wollen wissen, was Sie beschäftigt!
+                    <br />
+                    <br />
+                    <br />
+                    Mit freundlichen Grüßen
+                    <br />
+                    <br />
+                    Ihre Redaktion
+                </span>
             </article>
             <img id="karikatur" src="img/natoll.png" alt="" />
         </div>
     </div>
     <div class="container">
         <!-- <div class="phone"> -->
-        <h1>Leserantworten</h1>
-
+        <span class={show_bullshit ? "bullshit" : ""}>
+            <h1>Leserantworten</h1>
+        </span>
         <div class="grid">
             {#each interviews as image}
                 {#if selected !== image}
@@ -74,7 +85,6 @@
                 {/if}
             {/each}
         </div>
-
         {#if selected}
             {#await selected then d}
                 <div

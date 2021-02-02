@@ -1,5 +1,11 @@
 <script>
     import Plot from "./Plot.svelte";
+    import { bullshit } from "./stores.js";
+    let show_bullshit = false;
+
+    const unsubscribe = bullshit.subscribe((value) => {
+        show_bullshit = value;
+    });
 </script>
 
 <div class="container">
@@ -46,30 +52,38 @@
                 und sie können nicht aufgrund von Alter, Geschlecht, Ethnie,
                 Behinderung oder anderen Faktoren diskriminiert werden. In jeder
                 Fahrsituation muss geregelt sein wer zuständig ist: Mensch oder
-                Maschine. In den Letzen 10 Jahren kamen dann die für das
-                autonome Auto entscheidenden Maßnahmen. Die Europäische Union
-                standardisierte ein Prüfverfahren für die Erteilung einer
-                Betriebserlaubnis für Kraftfahrzeuge mit
+                Maschine.
+                <span class={show_bullshit ? "bullshit" : ""}>
+                    In den Letzen 10 Jahren kamen dann die für das autonome Auto
+                    entscheidenden Maßnahmen. Die Europäische Union
+                    standardisierte ein Prüfverfahren für die Erteilung einer
+                    Betriebserlaubnis für Kraftfahrzeuge mit</span
+                >
             </p>
             <p>
-                autonomen Fahrfunktionen, führte Pflichten der beteiligten
-                Personen ein und setzte einheitliche Vorschriften zur
-                Ermöglichung der Erprobung von automatisierten und autonomen
-                Kraftfahrzeugen vor. Hersteller von autonomen Fahrzeugen mussten
-                ab dann kritische Daten erfassen und veröffentlichen. Die Daten
-                beinhalten den genauen Standort mit einem Zeitpunkt und Events,
-                die jedes Mal stattfinden, wenn das Auto auf öffentlichen
-                Straßen von Autonom- zum Manuellen Modus aus
-                sicherheitsrelevantem Grunde wechselt. Als diese Daten dann die
-                Werte von vergleichbaren Menschlichen Fahren unterbot wurde dann
-                Vollautomatiesierungspflicht eingeführt. Die zu unterbietenden
-                Werte waren: die Unfallrate (0.003), Unfälle mit Verletzungen
-                (0.00077) und Unfälle mit Toten (0.00001), jeweils bei 1000
-                gefahrenen Kilometern.
+                <span class={show_bullshit ? "bullshit" : ""}>
+                    autonomen Fahrfunktionen, führte Pflichten der beteiligten
+                    Personen ein und setzte einheitliche Vorschriften zur
+                    Ermöglichung der Erprobung von automatisierten und autonomen
+                    Kraftfahrzeugen vor. Hersteller von autonomen Fahrzeugen
+                    mussten ab dann kritische Daten erfassen und
+                    veröffentlichen. Die Daten beinhalten den genauen Standort
+                    mit einem Zeitpunkt und Events, die jedes Mal stattfinden,
+                    wenn das Auto auf öffentlichen Straßen von Autonom- zum
+                    Manuellen Modus aus sicherheitsrelevantem Grunde wechselt.
+                    Als diese Daten dann die Werte von vergleichbaren
+                    Menschlichen Fahren unterbot wurde dann
+                    Vollautomatiesierungspflicht eingeführt. Die zu
+                    unterbietenden Werte waren: die Unfallrate (0.003), Unfälle
+                    mit Verletzungen (0.00077) und Unfälle mit Toten (0.00001),
+                    jeweils bei 1000 gefahrenen Kilometern.</span
+                >
             </p>
         </div>
         <!-- <div class="plot"> -->
-        <Plot />
+        <span class={show_bullshit ? "bullshit" : ""}>
+            <Plot />
+        </span>
         <!-- </div> -->
     </div>
 </div>
