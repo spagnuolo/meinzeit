@@ -32,11 +32,11 @@
             <p class="block">
                 Für ältere Menschen wurde die Verkehrsteilnahme durch den
                 schleichenden Prozess körperlicher Einbußen stark erschwert.
-                Beweglichkeit und Wahrnehmung gehörten nämlich zu den zentralen
+                Reaktions-, Seh-, und Hörvermögen, Aufmerksamkeit, Beweglichkeit
+                und Wahrnehmung gehörten nämlich zu den zentralen
                 Voraussetzungen für eine sichere Teilnahme am Verkehr. Außerdem
-                Reaktions-, Seh-, und Hörvermögen, Aufmerksamkeit, handelte man
-                ordnungswidrig, wenn man mit mehr als 0,5 Promille am
-                Straßenverkehr teilnahm. Menschen mit Verdacht auf
+                handelte man ordnungswidrig, wenn man mit mehr als 0,5 Promille
+                am Straßenverkehr teilnahm. Menschen mit Verdacht auf
                 Alkoholabhängigkeit oder Alkoholmissbrauch mussten sich einem
                 ärztlichen oder
             </p>
@@ -151,7 +151,7 @@
         margin-bottom: 16px;
     }
 
-    /* .block {
+    .block {
         text-align-last: justify;
-    } */
+    }
 </style>
