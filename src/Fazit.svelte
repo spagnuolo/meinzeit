@@ -49,8 +49,8 @@
         Redaktion uns sicher, ist die autonome Mobilität der heutigen Mobilität
         in Bezug auf die Teilhabe exkludierter Menschengruppen weit voraus. Ihr
         könnt Euch schon auf unsere dritte Ausgabe freuen. Dann werfen wir ein
-        Blick auf heutiges urbanes Smart-Living und die Frage, ob smart Homes
-        eine Möglichkeit darstellen, ein langes Wohnen innerhalb den eigenen
+        Blick auf heutiges urbanes Smart-Living und die Frage, ob Smarthomes
+        eine Möglichkeit darstellen, ein langes Wohnen innerhalb der eigenen
         vier Wänden zu ermöglichen.
     </p>
 </div>

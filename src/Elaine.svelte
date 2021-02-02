@@ -12,7 +12,7 @@
             jederzeit eingreifen kann. Elaine Herzberg, 49 Jahre, lief mit ihrem
             Fahrrad am Straßenrand. Das Wetter war klar und trocken. Mensch und
             Maschine waren nicht in der Lage den Unfall zu verhindern, so nach
-            Begutachtern.
+            Begutachter*innen.
         </p>
         <p>
             Und das ist auch was passieren wird. K.I. Systeme sind so Komplex,
@@ -65,7 +65,7 @@
             selbstständig vom Fahrzeug übernommen. Auch schwere
             Verkehrssituationen, wie das Queren einer Kreuzung, Kreiselverkehr
             oder das Verhalten am Zebrastreifen kann das autonome System
-            bewältigen. Fahrten ohne Passagiere ist ebenso möglich. Bei
+            bewältigen. Fahrten ohne Passagier*innen ist ebenso möglich. Bei
             Regelverstößen, Schäden oder Verkehrsunfällen werden die
             Passagier*innen nicht zur Verantwortung gezogen und sind nicht
             haftbar.

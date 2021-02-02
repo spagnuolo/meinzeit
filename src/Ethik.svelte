@@ -22,33 +22,33 @@
         autonomen Fahren bezieht sich auf das sogenannte overruling durch den
         Menschen. Wenn das autonome Fahren als die sicherste Möglichkeit der
         Fortbewegung angesehen wird, wie sieht es dann mit der Möglichkeit aus,
-        das Steuer als menschlicher Fahrer selbst wieder zu übernehmen? Dies
+        das Steuer als menschliche*r Fahrer*in selbst wieder zu übernehmen? Dies
         könne als ein Sicherheitsrisiko eingestuft werden, welches durch eine
         Verhinderung von overruling vermieden werden könne. Andererseits müsse
         in einer demokratischen Gesellschaft auch eine Entscheidungsfreiheit
         gewährleistet sein . Die Ethik-Kommission verwies in dieser Frage
         darauf, dass es keine ethische Regel gebe, die die Sicherheit der
-        Straßenverkehrsteilnehmer über das persönliche Freiheitsempfinden
+        Straßenverkehrsteilnehmer*innen über das persönliche Freiheitsempfinden
         stelle. Daran schloss eine andere offene Frage an, die sich der Technik
         unter geteilten Verantwortungszuständigkeiten widmete Für gewöhnliche
-        läge die Verantwortung bei Hersteller und Betreiber. Bei einer geteilten
-        Verantwortung müsse klar darin unterschieden werden, wer wann das
-        Fahrzeug führe und damit die Verantwortung trägt. Wenn die Möglichkeit
-        bestände, das Fahrzeug in Notsituationen wieder manuell zu steuern, zum
-        Beispiel wenn das technische System die Sicherheit nicht mehr
-        gewährleisten kann, so müsse gewährleistet werden, dass die Abgabe
+        läge die Verantwortung bei Hersteller*in und Betreiber*in. Bei einer
+        geteilten Verantwortung müsse klar darin unterschieden werden, wer wann
+        das Fahrzeug führe und damit die Verantwortung trägt. Wenn die
+        Möglichkeit bestände, das Fahrzeug in Notsituationen wieder manuell zu
+        steuern, zum Beispiel wenn das technische System die Sicherheit nicht
+        mehr gewährleisten kann, so müsse gewährleistet werden, dass die Abgabe
         rechtzeitig geschieht und nicht akut. Oder das Fahrzeug müsse
         selbstständig sicher vor der Übergabe an den Straßenrand fahren. Wenn
         die Kontrolle in einer Notsituation nicht mehr abgegeben sei, dann müsse
         das Auto von seiner Technik in einen sicheren Zustand versetzt werden,
-        der bestmögliche Sicherheit für alle Verkehrsteilnehmer gewähre. Das
-        fünfte Themenfeld bezog sich auf eine gesetzliche Pflicht zur
+        der bestmögliche Sicherheit für alle Verkehrsteilnehmer*innen gewähre.
+        Das fünfte Themenfeld bezog sich auf eine gesetzliche Pflicht zur
         Vollautomatisierung der Verkehrssysteme.
         <span class={show_bullshit ? "bullshit" : ""}>
-            Wie unsere lieben Leser wissen, wurde in den letzten Jahren von der
-            Bundesregierung eine von der Industrie viel gelobte, aber von
-            anderen stark kritisierte, Vollautomatisierungspflicht für Fahrzeuge
-            eingeführt.</span
+            Wie unsere lieben Leser*innen wissen, wurde in den letzten Jahren
+            von der Bundesregierung eine von der Industrie viel gelobte, aber
+            von anderen stark kritisierte, Vollautomatisierungspflicht für
+            Fahrzeuge eingeführt.</span
         >
         Durch eine Beschränkung auf die Nutzung von autonomfahrenden Fahrzeugen sollen
         von Menschen verursachte Fahrzeugunfälle im Straßenverkehr vermieden werden.
@@ -80,7 +80,7 @@
         Erwerb von ständig-zu-trainierenden Kenntnissen im Autofahren.
         <span class={show_bullshit ? "bullshit" : ""}
             >Eine Entwicklung, die wir heutzutage beobachten können, liebe
-            Leser!</span
+            Leser*innen!</span
         > In Bezug auf die obige Frage der persönlichen Entscheidungsfreiheit, verhindere
         das Fehlen eines selbstständigen Erlernens des Auto- oder auch Fahrradfahrens
         auch weitere selbstbestimmte Handlungen der Fahrzeuginsassen. Ohne Führerscheinausbildung

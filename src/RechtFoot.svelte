@@ -71,8 +71,8 @@
                     mit einem Zeitpunkt und Events, die stattfinden, wenn das
                     Auto auf öffentlichen Straßen vom Autonom- zum Manuellen
                     Modus aus sicherheitsrelevantem Grunde wechselt. Als diese
-                    Daten dann die Werte von vergleichbaren Menschlichen Fahren
-                    unterbot, wurde dann die Vollautomatiesierungspflicht
+                    Daten dann die Werte von vergleichbaren menschlichen Fahren
+                    unterbot, wurde dann die Vollautomatisierungspflicht
                     eingeführt. Die zu unterbietenden Werte waren: die
                     Unfallrate (0.003), Unfälle mit Verletzungen (0.00077) und
                     Unfälle mit Toten (0.00001), jeweils bei 1000 gefahrenen

@@ -18,10 +18,10 @@
             2004 veröffentlichen Frank Levy, ein MIT Professor und Richard J. Murnane,
             ein Havard Wirtschaftswissenschafts Professor, das Buch The New Division
             of Labor: How Computers Are Creating The Next Job Market. In diesem Buch
-            argumentierten die zwei Autoren noch, dass Autofahrer nicht durch Maschinen
-            ersetzt werden könnten, da "es schwer vorstellbar sei die genauen Regeln
-            zu entdecken, die das Verhalten eines Fahrers reproduzieren." Jedoch
-            nur einige Jahre später, im Jahre 2007, fand die DARPA Urban Challenge
+            argumentierten die zwei Autoren noch, dass Autofahrer*innen nicht durch
+            Maschinen ersetzt werden könnten, da "es schwer vorstellbar sei die genauen
+            Regeln zu entdecken, die das Verhalten eines Fahrer*innen reproduzieren."
+            Jedoch nur einige Jahre später, im Jahre 2007, fand die DARPA Urban Challenge
             statt. Dieser Wettbewerb verlangte von den Teams Autonome Fahrzeuge zu
             entwickeln, die in der Lage sind im Verkehr zu fahren, an Kreuzungen
             Vorrang auszuhandeln, komplexe

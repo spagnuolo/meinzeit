@@ -75,7 +75,7 @@
                 Straßen nur noch zu 100% elektrisch betriebene Fahrzeuge und ca.
                 75% der Energie wird aus erneuerbaren Energiequellen bezogen.
                 Und der Weg zu 100% Öko-Strom ist wohl auch nicht mehr weit,
-                hört man aus Expertenkreisen.
+                hört man aus Expert*innenenkreisen.
             </span>
         </p>
     </div>

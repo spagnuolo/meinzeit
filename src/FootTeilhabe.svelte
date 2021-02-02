@@ -52,11 +52,11 @@
                 Benzin oder Diesel, Versicherungskosten, Instandhaltungs- und
                 Führerscheinkosten zusammen. In Zeiten des Individualbesitzes
                 wurden diese Kosten auch nicht aufgeteilt und mussten von
-                Besitzer*innen allein bezahlt werden.. Wie man sehen kann war
-                das Autofahren 2020 kein inklusives Modell, denn nicht jede*r
-                konnte am Straßenverkehr teilnehmen. Dadurch wurden Menschen in
-                ihrer Teilhabe am gesellschaftlichen Leben und in ihrer
-                Lebenswelt eingeschränkt.
+                Besitzer*innen allein bezahlt werden. Wie man sehen kann war das
+                Autofahren 2020 kein inklusives Modell, denn nicht jede*r konnte
+                am Straßenverkehr teilnehmen. Dadurch wurden Menschen in ihrer
+                Teilhabe am gesellschaftlichen Leben und in ihrer Lebenswelt
+                eingeschränkt.
             </p>
             <h2>Die Umschichtung des Arbeitsmarkts</h2>
             <p>
