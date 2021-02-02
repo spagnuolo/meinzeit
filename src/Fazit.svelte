@@ -1,4 +1,12 @@
-<div class="container">
+<script>
+    import { fade } from "svelte/transition";
+</script>
+
+<div
+    class="container"
+    in:fade={{ delay: 350, duration: 1000 }}
+    out:fade={{ duration: 200 }}
+>
     <h2>Redaktionelles Fazit: Autonome Mobilität ein inklusives Modell</h2>
     <p>
         Blicken wir als Redaktion der Meinzeit zurück auf 10 Jahre Geschichte

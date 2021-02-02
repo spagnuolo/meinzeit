@@ -1,4 +1,5 @@
 <script>
+    import { fade } from "svelte/transition";
     import { bullshit } from "./stores.js";
     let show_bullshit = false;
 
@@ -7,7 +8,11 @@
     });
 </script>
 
-<div class="container">
+<div
+    class="container"
+    in:fade={{ delay: 350, duration: 1000 }}
+    out:fade={{ duration: 200 }}
+>
     <div class="column">
         <h2>Rückblick auf das erste inklusive autonome Fahrzeug</h2>
         <p>

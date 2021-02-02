@@ -1,4 +1,12 @@
-<div class="container">
+<script>
+    import { fade } from "svelte/transition";
+</script>
+
+<div
+    class="container"
+    in:fade={{ delay: 350, duration: 1000 }}
+    out:fade={{ duration: 200 }}
+>
     <div>
         <img
             src="img/angel.jpg"

@@ -1,4 +1,5 @@
 <script>
+    import { fade } from "svelte/transition";
     import Plot from "./Plot.svelte";
     import { bullshit } from "./stores.js";
     let show_bullshit = false;
@@ -8,7 +9,11 @@
     });
 </script>
 
-<div class="container">
+<div
+    class="container"
+    in:fade={{ delay: 350, duration: 1000 }}
+    out:fade={{ duration: 200 }}
+>
     <div>
         <h2>Recht und Sicherheit</h2>
         <p class="block">

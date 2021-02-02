@@ -1,5 +1,5 @@
 <script>
-    import { crossfade, scale } from "svelte/transition";
+    import { crossfade, scale, fade } from "svelte/transition";
     import interviews from "./interviews.js";
     import Video from "./Video.svelte";
     import { bullshit } from "./stores.js";
@@ -38,7 +38,10 @@
 
 <div class="flexbox">
     <div class="vcenter">
-        <div>
+        <div
+            in:fade={{ delay: 350, duration: 1000 }}
+            out:fade={{ duration: 200 }}
+        >
             <h2>Aufruf aus unserer letzten Ausgabe:</h2>
             <article style="width:500px">
                 <span class={show_bullshit ? "bullshit" : ""}>

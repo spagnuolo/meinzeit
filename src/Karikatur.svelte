@@ -1,4 +1,5 @@
 <script>
+    import { fade } from "svelte/transition";
     import { bullshit } from "./stores.js";
     let show_bullshit = false;
 
@@ -7,7 +8,7 @@
     });
 </script>
 
-<div>
+<div in:fade={{ delay: 350, duration: 1000 }} out:fade={{ duration: 200 }}>
     <div class="container">
         <div class="image">
             <img src="img/karikatur1.jpg" alt="karkatur1" />

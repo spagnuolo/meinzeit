@@ -1,4 +1,5 @@
 <script>
+    import { fade } from "svelte/transition";
     import { bullshit } from "./stores.js";
     let show_bullshit = false;
 
@@ -7,7 +8,11 @@
     });
 </script>
 
-<div class="headline">
+<div
+    class="headline"
+    in:fade={{ delay: 350, duration: 1000 }}
+    out:fade={{ duration: 200 }}
+>
     <h2>
         Autonomes Fahren: Sind autonome Fahrzeuge ein exklusives Zukunftsmodell?
     </h2>
